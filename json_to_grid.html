@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <style>
+            div {
+                border: 1px solid white;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript">
+            $.getJSON("sample.json", function(data){
+                $(document).ready(function(){
+                    const myJSON = '{"name":"Mercedes-Benz SLS AMG","year":2011,"imageURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mercedes-Benz_SLS_AMG_%28C_197%29_%E2%80%93_Frontansicht_ge%C3%B6ffnet%2C_10._August_2011%2C_D%C3%BCsseldorf.jpg/800px-Mercedes-Benz_SLS_AMG_%28C_197%29_%E2%80%93_Frontansicht_ge%C3%B6ffnet%2C_10._August_2011%2C_D%C3%BCsseldorf.jpg","engine":{"type":"M156 E63","size":"6208 cc","configuration":"V8"},"brakes":{"front":"360 mm","back":"340 mm"}}';
+                    const my_obj = data;
+                    const key_colour = 'LightSteelBlue';
+                    const value_colour = 'LightCyan';
+                    var column_width_reserve = '';
+                    var keys = '';
+                    var values = '';
+                    var function_execution_iterator = 0;
+                    var div_id_iterator = 0;
+                    function json_to_grid(myObj, div_id, available_column_width){
+                        function_execution_iterator = function_execution_iterator + 1;
+                        const iterator = function_execution_iterator;
+                        var row_constructor = '<div id="JSON_key' + iterator + '" class="row"></div>' + '<div id="JSON_value' + iterator + '" class="row"></div>';
+                        column_width_reserve = available_column_width % Object.keys(myObj).length;
+                        $("#"+div_id).html(row_constructor);
+                        for (i in myObj){
+                            div_id_iterator = div_id_iterator + 1;
+                            column_width = Math.floor(available_column_width / Object.keys(myObj).length);
+                            if (typeof(myObj[i]) == 'object'){
+                                while (column_width != Object.keys(myObj[i]).length && column_width_reserve != 0){
+                                    column_width = column_width +1;
+                                    column_width_reserve = column_width_reserve -1;
+                                }
+                            }
+                            keys = keys + '<div id="keys' + div_id_iterator + '" class="col-'+ column_width + '" style="background-color:' + key_colour + ';"><h3><b>' + i + '</b></h3></div>';
+                            $("#JSON_key"+iterator).html(keys);
+                            if (myObj[i][0] === 'h' && myObj[i][1] === 't' && myObj[i][2] === 't' && myObj[i][3] === 'p'){values = values + '<div id="values' + div_id_iterator + '" class="col-'+ column_width + '" style="background-color:' + value_colour + ';">' + '<img style="width: inherit;" src="' + myObj[i] + '">' + '</div>';}
+                            else if (typeof(myObj[i]) == 'object'){
+                                values = values + '<div id="values' + div_id_iterator + '" class="col-'+ column_width + '" style="background-color:' + value_colour + ';"><div class="row">';
+                                for (x in myObj[i]){values = values + '<div class="col" style="background-color:' + key_colour + ';"><b>' + x + '</b></div>';}
+                                values = values + '</div><div class="row">';
+                                for (x in myObj[i]){values = values + '<div class="col" style="background-color:' + value_colour + ';">' + myObj[i][x] + '</div>';}
+                                values = values + '</div></div>';
+                            }
+                            else {values = values + '<div id="values' + div_id_iterator + '" class="col-'+ column_width + '" style="background-color:' + value_colour + ';">' + myObj[i] + '</div>';} 
+                            $("#JSON_value"+iterator).html(values);
+                        }
+                    }
+                    json_to_grid(my_obj, 'container', 12);
+                });
+            });
+        </script>    
+    </head>
+    <body>
+        <div id="container" class="container-fluid" style="text-align: center;"></div>
+    </body>
+</html>
