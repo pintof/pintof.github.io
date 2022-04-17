@@ -1,0 +1,45 @@
+{
+  "createdTime": "2009-12-13T05:07:18.760Z",
+  "modifiedTime": "2021-05-10T12:08:34.058Z",
+  "historyEnabled": true,
+  "deviceSettings": [{
+    "deviceTag": -638302657,
+    "reportingEnabled": true,
+    "legalCountryCode": "ca",
+    "devicePrettyName": "K87CA",
+    "platformType": "ANDROID",
+    "deviceCreationTime": "2021-05-10T12:06:29.942Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2021-05-10T12:06:31.100Z"
+    },
+    "androidOsLevel": 29,
+    "deviceSpec": {
+      "manufacturer": "ZTE",
+      "brand": "ZTE",
+      "product": "K87CA",
+      "device": "K87",
+      "model": "K87CA",
+      "isLowRam": false
+    }
+  }, {
+    "deviceTag": -524241833,
+    "reportingEnabled": true,
+    "legalCountryCode": "ca",
+    "devicePrettyName": "iPhone",
+    "platformType": "IOS",
+    "deviceCreationTime": "2019-03-31T06:06:29.788Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2019-06-15T03:49:58.135Z"
+    },
+    "iosVersion": "15.3.1",
+    "deviceSpec": {
+      "device": "iPhone11,8"
+    }
+  }],
+  "latestLocationHistorySettingChange": {
+    "historyEnabledModificationTime": "2019-06-15T03:49:58.135Z"
+  },
+  "retentionWindowDays": 2147483647,
+  "hasReportedLocations": true,
+  "hasSetRetention": false
+}

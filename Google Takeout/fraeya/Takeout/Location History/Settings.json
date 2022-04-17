@@ -1,0 +1,48 @@
+{
+  "createdTime": "2013-11-16T22:16:48.264Z",
+  "modifiedTime": "2021-08-30T00:37:16.178Z",
+  "historyEnabled": false,
+  "deviceSettings": [{
+    "deviceTag": -1017693605,
+    "reportingEnabled": false,
+    "legalCountryCode": "ca",
+    "devicePrettyName": "iPad (2)",
+    "platformType": "IOS",
+    "deviceCreationTime": "2021-08-30T00:37:16.178Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2021-08-30T00:37:16.178Z"
+    },
+    "iosVersion": "14.5.1",
+    "deviceSpec": {
+      "device": "iPad13,8"
+    }
+  }, {
+    "deviceTag": -365148197,
+    "reportingEnabled": false,
+    "legalCountryCode": "ca",
+    "devicePrettyName": "Fraeya’s iPhone",
+    "platformType": "IOS",
+    "deviceCreationTime": "2021-05-06T05:06:40.840Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2021-05-06T05:06:40.840Z"
+    },
+    "iosVersion": "12.1.4"
+  }, {
+    "deviceTag": -1386241110,
+    "reportingEnabled": false,
+    "legalCountryCode": "ca",
+    "devicePrettyName": "Fraeya’s iPhone",
+    "platformType": "IOS",
+    "deviceCreationTime": "2019-11-06T01:40:09.294Z",
+    "iosVersion": "15.3.1",
+    "deviceSpec": {
+      "device": "iPhone11,8"
+    }
+  }],
+  "latestLocationHistorySettingChange": {
+    "historyEnabledModificationTime": "2018-12-15T08:23:01.075Z"
+  },
+  "retentionWindowDays": 2147483647,
+  "hasReportedLocations": true,
+  "hasSetRetention": false
+}

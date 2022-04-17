@@ -1,0 +1,9 @@
+1. Do all the current ammendmants & map overlays indicate that the current CLUPA map app does not show the most current information?
+
+2. Does the tag <OVERLAY_IND> mean that this layer is overlapped with another layer, so the land use policy for this layer may not be accurate?
+And is this irrelevant as your API pulls the ID of the top most layer when a point is queried?
+
+3. If <PARK_ADMIN_ZONE_NAME> is not blank, does this mean MECP is the custodian of this land, and if the tag is blank does this mean MNR is the custodian?
+
+4. is EFFECTIVE_DATETIME the same as 'Date Policy Report Last Updated'? 
+What datetime format is EFFECTIVE_DATETIME in?

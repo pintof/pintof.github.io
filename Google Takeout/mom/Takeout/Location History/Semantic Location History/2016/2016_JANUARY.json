@@ -1,0 +1,379 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 128971754,
+        "longitudeE7": 748309815,
+        "placeId": "ChIJwxC1OmNaozsR-TjR8u9jEPI",
+        "address": "Boloor Marigudi Rd, Urwa, Mangalore, Dakshina Kannada, Karnataka 575006, India",
+        "name": "Sharanya Electronics",
+        "locationConfidence": 13.237974
+      },
+      "duration": {
+        "startTimestamp": "2016-01-04T16:13:42.814Z",
+        "endTimestamp": "2016-01-04T16:43:47.640Z"
+      },
+      "centerLatE7": 128971200,
+      "centerLngE7": 748314500,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 128954224,
+        "longitudeE7": 748303606,
+        "placeId": "ChIJee6RAWNaozsRP-E4-T8ZjmY",
+        "name": "Hyper Mart",
+        "locationConfidence": 8.787278
+      }, {
+        "latitudeE7": 128976896,
+        "longitudeE7": 748321241,
+        "placeId": "ChIJnS2gG2NaozsRTPQwRaz00sc",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Incede Technologies",
+        "locationConfidence": 8.747339
+      }, {
+        "latitudeE7": 128971689,
+        "longitudeE7": 748307307,
+        "placeId": "ChIJSeiWJWNaozsRo-pDFJfraTU",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Corporation Bank, Ashoknagar Branch",
+        "locationConfidence": 6.0253153
+      }, {
+        "latitudeE7": 128977255,
+        "longitudeE7": 748329501,
+        "placeId": "ChIJ2zQoVGNaozsR9fPWwZajdZo",
+        "address": "VRXM+35R\nUrwa\nMangaluru, Karnataka 575006\nIndia",
+        "name": "proximus",
+        "locationConfidence": 5.680615
+      }, {
+        "latitudeE7": 128958680,
+        "longitudeE7": 748306640,
+        "placeId": "ChIJBUFAV2BaozsR0fU2C9uNkcs",
+        "address": "Ashok Nagar, Urwa\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Gokula Kalyana Mantapa",
+        "locationConfidence": 5.1813626
+      }, {
+        "latitudeE7": 128966738,
+        "longitudeE7": 748307193,
+        "placeId": "ChIJDzoSImNaozsRcFWYOb1heGY",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Invenger Testing Center Of Excellence",
+        "locationConfidence": 4.8756113
+      }, {
+        "latitudeE7": 128975505,
+        "longitudeE7": 748310821,
+        "placeId": "ChIJ6--kNmNaozsRkdjKeC9asUk",
+        "name": "Beauty Wall Spot",
+        "locationConfidence": 4.6161203
+      }, {
+        "latitudeE7": 128970333,
+        "longitudeE7": 748319605,
+        "placeId": "ChIJraqqqolaozsRu-NPTVm_1rM",
+        "name": "New Mangalore College of Nursing",
+        "locationConfidence": 3.8480844
+      }, {
+        "latitudeE7": 128972109,
+        "longitudeE7": 748312790,
+        "placeId": "ChIJdzsROmNaozsR4Zh2CUpVWSM",
+        "address": "1-S-14-9690/5\nManjesh Arcade\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "B.B. Baker\u0027s",
+        "locationConfidence": 3.404531
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 17,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 128971754,
+        "longitudeE7": 748309815
+      },
+      "endLocation": {
+        "latitudeE7": 128971286,
+        "longitudeE7": 748314529
+      },
+      "duration": {
+        "startTimestamp": "2016-01-04T16:43:47.640Z",
+        "endTimestamp": "2016-01-04T17:00:07.813Z"
+      },
+      "distance": 8364373,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 128972921,
+          "lngE7": 748309631
+        }, {
+          "latE7": 128973503,
+          "lngE7": 748314132
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 49.19231922244282,
+        "travelMode": "DRIVE",
+        "confidence": 0.9999284421115234
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 128975505,
+        "longitudeE7": 748310821,
+        "placeId": "ChIJy9jv82FaozsRVcq2APw47ks",
+        "address": "Ashok Nagar, Mangalore, Dakshina Kannada, Karnataka 575006, India",
+        "name": "Beauty Wall Spot",
+        "locationConfidence": 13.555182
+      },
+      "duration": {
+        "startTimestamp": "2016-01-05T02:27:07.581Z",
+        "endTimestamp": "2016-01-05T08:11:25.885Z"
+      },
+      "centerLatE7": 128973873,
+      "centerLngE7": 748314292,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 128971754,
+        "longitudeE7": 748309815,
+        "placeId": "ChIJwxC1OmNaozsR-TjR8u9jEPI",
+        "address": "Boloor Marigudi Rd\nUrwa\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Sharanya Electronics",
+        "locationConfidence": 11.884113
+      }, {
+        "latitudeE7": 128966738,
+        "longitudeE7": 748307193,
+        "placeId": "ChIJDzoSImNaozsRcFWYOb1heGY",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Invenger Testing Center Of Excellence",
+        "locationConfidence": 10.392141
+      }, {
+        "latitudeE7": 128976896,
+        "longitudeE7": 748321241,
+        "placeId": "ChIJnS2gG2NaozsRTPQwRaz00sc",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Incede Technologies",
+        "locationConfidence": 9.267798
+      }, {
+        "latitudeE7": 128971689,
+        "longitudeE7": 748307307,
+        "placeId": "ChIJSeiWJWNaozsRo-pDFJfraTU",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Corporation Bank, Ashoknagar Branch",
+        "locationConfidence": 6.288854
+      }, {
+        "latitudeE7": 128977255,
+        "longitudeE7": 748329501,
+        "placeId": "ChIJ2zQoVGNaozsR9fPWwZajdZo",
+        "address": "VRXM+35R\nUrwa\nMangaluru, Karnataka 575006\nIndia",
+        "name": "proximus",
+        "locationConfidence": 6.0288167
+      }, {
+        "latitudeE7": 128958680,
+        "longitudeE7": 748306640,
+        "placeId": "ChIJBUFAV2BaozsR0fU2C9uNkcs",
+        "address": "Ashok Nagar, Urwa\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Gokula Kalyana Mantapa",
+        "locationConfidence": 5.357834
+      }, {
+        "latitudeE7": 128970333,
+        "longitudeE7": 748319605,
+        "placeId": "ChIJraqqqolaozsRu-NPTVm_1rM",
+        "name": "New Mangalore College of Nursing",
+        "locationConfidence": 4.733992
+      }, {
+        "latitudeE7": 128954224,
+        "longitudeE7": 748303606,
+        "placeId": "ChIJee6RAWNaozsRP-E4-T8ZjmY",
+        "name": "Hyper Mart",
+        "locationConfidence": 2.536886
+      }, {
+        "latitudeE7": 128971229,
+        "longitudeE7": 748306480,
+        "placeId": "ChIJqXv2JWNaozsRe1cXE3Y5G5c",
+        "name": "Corporation Bank",
+        "locationConfidence": 2.1025968
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 18,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 128966738,
+        "longitudeE7": 748307193,
+        "placeId": "ChIJDzoSImNaozsRcFWYOb1heGY",
+        "address": "Boloor Marigudi Rd, Ashok Nagar, Mangalore, Dakshina Kannada, Karnataka 575006, India",
+        "name": "Invenger Testing Center Of Excellence",
+        "locationConfidence": 12.026766
+      },
+      "duration": {
+        "startTimestamp": "2016-01-06T07:23:42.506Z",
+        "endTimestamp": "2016-01-06T12:31:54.971Z"
+      },
+      "centerLatE7": 128971196,
+      "centerLngE7": 748314500,
+      "visitConfidence": 78,
+      "otherCandidateLocations": [{
+        "latitudeE7": 128971754,
+        "longitudeE7": 748309815,
+        "placeId": "ChIJwxC1OmNaozsR-TjR8u9jEPI",
+        "address": "Boloor Marigudi Rd\nUrwa\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Sharanya Electronics",
+        "locationConfidence": 11.65909
+      }, {
+        "latitudeE7": 128975505,
+        "longitudeE7": 748310821,
+        "placeId": "ChIJ6--kNmNaozsRkdjKeC9asUk",
+        "name": "Beauty Wall Spot",
+        "locationConfidence": 11.524068
+      }, {
+        "latitudeE7": 128976896,
+        "longitudeE7": 748321241,
+        "placeId": "ChIJnS2gG2NaozsRTPQwRaz00sc",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Incede Technologies",
+        "locationConfidence": 7.296841
+      }, {
+        "latitudeE7": 128958680,
+        "longitudeE7": 748306640,
+        "placeId": "ChIJBUFAV2BaozsR0fU2C9uNkcs",
+        "address": "Ashok Nagar, Urwa\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Gokula Kalyana Mantapa",
+        "locationConfidence": 6.703616
+      }, {
+        "latitudeE7": 128971689,
+        "longitudeE7": 748307307,
+        "placeId": "ChIJSeiWJWNaozsRo-pDFJfraTU",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Corporation Bank, Ashoknagar Branch",
+        "locationConfidence": 6.1575985
+      }, {
+        "latitudeE7": 128977255,
+        "longitudeE7": 748329501,
+        "placeId": "ChIJ2zQoVGNaozsR9fPWwZajdZo",
+        "address": "VRXM+35R\nUrwa\nMangaluru, Karnataka 575006\nIndia",
+        "name": "proximus",
+        "locationConfidence": 5.426957
+      }, {
+        "latitudeE7": 128970333,
+        "longitudeE7": 748319605,
+        "placeId": "ChIJraqqqolaozsRu-NPTVm_1rM",
+        "name": "New Mangalore College of Nursing",
+        "locationConfidence": 5.2095213
+      }, {
+        "latitudeE7": 128944092,
+        "longitudeE7": 748300400,
+        "placeId": "ChIJi4s-nWRaozsRUzz9Rs-GRNU",
+        "address": "Boloor Marigudi Rd\nUrwa\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Daivajyna Kalayana Mantapa",
+        "locationConfidence": 3.9190867
+      }, {
+        "latitudeE7": 128954224,
+        "longitudeE7": 748303606,
+        "placeId": "ChIJee6RAWNaozsRP-E4-T8ZjmY",
+        "name": "Hyper Mart",
+        "locationConfidence": 3.1487622
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 16,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 128966738,
+        "longitudeE7": 748307193,
+        "placeId": "ChIJDzoSImNaozsRcFWYOb1heGY",
+        "address": "Boloor Marigudi Rd\nAshok Nagar\nMangaluru, Karnataka 575006\nIndia",
+        "name": "Invenger Testing Center Of Excellence",
+        "locationConfidence": 12.026766
+      },
+      "endLocation": {
+        "latitudeE7": 128782428,
+        "longitudeE7": 748564559
+      },
+      "duration": {
+        "startTimestamp": "2016-01-06T12:31:54.971Z",
+        "endTimestamp": "2016-01-06T15:15:58.637Z"
+      },
+      "distance": 3405,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 128966760,
+          "lngE7": 748308105
+        }, {
+          "latE7": 128784923,
+          "lngE7": 748568420
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 6457.422006188429,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 128782428,
+        "longitudeE7": 748564559
+      },
+      "endLocation": {
+        "latitudeE7": 128772507,
+        "longitudeE7": 748577679
+      },
+      "duration": {
+        "startTimestamp": "2016-01-06T15:15:58.637Z",
+        "endTimestamp": "2016-01-06T15:24:10.617Z"
+      },
+      "distance": 179,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 128784923,
+          "lngE7": 748568420
+        }, {
+          "latE7": 128774690,
+          "lngE7": 748577423
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 196.71901561553472,
+        "travelMode": "WALK",
+        "confidence": 0.9996595520778544
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }]
+}

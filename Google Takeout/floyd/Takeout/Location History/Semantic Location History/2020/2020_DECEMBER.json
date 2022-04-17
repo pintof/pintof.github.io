@@ -1,0 +1,30 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 433735704,
+        "longitudeE7": -797814167,
+        "placeId": "ChIJwbapIf9gK4gR3ClDvCyPxc0",
+        "address": "4243 N Service Rd\nBurlington, ON L7L 4X6\nCanada",
+        "name": "FedEx Ship Centre",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2020-12-14T13:26:42Z",
+        "endTimestamp": "2020-12-14T13:27:42Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2020-12-14T13:27:42.799Z",
+      "placeVisitImportance": "MAIN",
+      "checkin": {
+        "atTime": "2020-12-14T13:27:42Z"
+      }
+    }
+  }]
+}

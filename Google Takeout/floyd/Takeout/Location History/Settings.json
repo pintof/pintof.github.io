@@ -1,0 +1,37 @@
+{
+  "createdTime": "2010-08-02T08:21:56.691Z",
+  "modifiedTime": "2022-03-14T04:56:07.120Z",
+  "historyEnabled": true,
+  "deviceSettings": [{
+    "deviceTag": 1902976113,
+    "reportingEnabled": false,
+    "legalCountryCode": "ca",
+    "devicePrettyName": "iPhone",
+    "platformType": "IOS",
+    "deviceCreationTime": "2021-08-14T15:10:09.179Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2021-08-14T15:10:09.179Z"
+    },
+    "iosVersion": "12.5.5",
+    "deviceSpec": {
+      "device": "iPhone7,2"
+    }
+  }, {
+    "deviceTag": 16697967,
+    "reportingEnabled": false,
+    "legalCountryCode": "ca",
+    "devicePrettyName": "Floyd’s iPhone",
+    "platformType": "IOS",
+    "deviceCreationTime": "2019-09-27T03:42:17.269Z",
+    "iosVersion": "12.4.9",
+    "deviceSpec": {
+      "device": "iPhone6,1"
+    }
+  }],
+  "latestLocationHistorySettingChange": {
+    "historyEnabledModificationTime": "2022-03-14T04:52:29.707Z"
+  },
+  "retentionWindowDays": 2147483647,
+  "hasReportedLocations": false,
+  "hasSetRetention": true
+}

@@ -1,0 +1,71 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 461135047,
+        "longitudeE7": -608702733,
+        "placeId": "ChIJvXtaAe1iXUsRr8tCMGYlrm0",
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2014-08-20T01:39:08.124Z",
+        "endTimestamp": "2014-08-20T12:27:41.338Z"
+      },
+      "centerLatE7": 461147574,
+      "centerLngE7": -608675257,
+      "visitConfidence": 81,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-08-22T19:46:57.322Z",
+        "endTimestamp": "2014-08-22T23:06:06.549Z"
+      },
+      "distance": 265981,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 449763717,
+          "lngE7": -635085449
+        }, {
+          "latE7": 455528297,
+          "lngE7": -635491447
+        }, {
+          "latE7": 459610519,
+          "lngE7": -657720489
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 303501.1490558248,
+        "travelMode": "DRIVE",
+        "confidence": 0.9990327231310681
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 455528755,
+          "lngE7": -635493202,
+          "accuracyMeters": 5,
+          "timestamp": "2014-08-22T20:34:25.305Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }]
+}

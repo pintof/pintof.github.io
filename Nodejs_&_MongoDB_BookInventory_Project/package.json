@@ -1,0 +1,16 @@
+{
+  "name": "lab-6",
+  "version": "1.0.0",
+  "description": "book inventory app",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx nodemon -e html app.js"
+  },
+  "author": "floyd pinto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.15"
+  }
+}

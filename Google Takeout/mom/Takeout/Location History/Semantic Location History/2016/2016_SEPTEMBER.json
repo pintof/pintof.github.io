@@ -1,0 +1,88 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434029420,
+        "longitudeE7": -798164547,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, Ontario L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 966164928
+        },
+        "locationConfidence": 79.261925
+      },
+      "duration": {
+        "startTimestamp": "2016-09-07T19:13:52.289Z",
+        "endTimestamp": "2016-09-07T20:46:35.141Z"
+      },
+      "centerLatE7": 434031696,
+      "centerLngE7": -798166773,
+      "visitConfidence": 79,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434032036,
+        "longitudeE7": -798165423,
+        "placeId": "ChIJn2KnY0VhK4gRAUtZdDcb1vY",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 20.586332
+      }, {
+        "latitudeE7": 434036787,
+        "longitudeE7": -798164178,
+        "placeId": "ChIJ_1uyiE9hK4gRNuZkRVhd9uM",
+        "address": "4651 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "Fatimas\u0027 Enriched Home Daycare",
+        "locationConfidence": 0.044549797
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Dog Park",
+        "locationConfidence": 0.042589724
+      }, {
+        "latitudeE7": 433921858,
+        "longitudeE7": -798084095,
+        "placeId": "ChIJI0mNuT9hK4gRlBJlauNY9Zw",
+        "address": "2155 Country Club Dr\nBurlington, ON L7M 4A8\nCanada",
+        "name": "Millcroft Golf Club",
+        "locationConfidence": 0.031738367
+      }, {
+        "latitudeE7": 434039730,
+        "longitudeE7": -798146360,
+        "placeId": "ChIJhxkqb09hK4gRm1naNa4cYJM",
+        "name": "PowerEdgePro Hockey Training Burlington Halton",
+        "locationConfidence": 0.01627794
+      }, {
+        "latitudeE7": 434040557,
+        "longitudeE7": -798145980,
+        "placeId": "ChIJz0OzfR9hK4gRtrSxdYCat4w",
+        "address": "1131 Nottinghill Gate Suite 203\nOakville, ON L6M 1K5\nCanada",
+        "name": "Empire Travel",
+        "locationConfidence": 0.0024137667
+      }, {
+        "latitudeE7": 434042807,
+        "longitudeE7": -798153065,
+        "placeId": "ChIJ_0O5c09hK4gRmbt4s942jKY",
+        "address": "3070 Mainway unit 7\nBurlington, ON L7M 0E7\nCanada",
+        "name": "Absolute Home Services",
+        "locationConfidence": 0.0023648299
+      }, {
+        "latitudeE7": 434014534,
+        "longitudeE7": -798148064,
+        "placeId": "ChIJFwYdtUVhK4gRmWivXNs51yY",
+        "name": "Hallett Homes",
+        "locationConfidence": 0.0019660778
+      }, {
+        "latitudeE7": 434015819,
+        "longitudeE7": -798136004,
+        "placeId": "ChIJzxE020VhK4gRrOvujnatxLM",
+        "name": "CLS Industries Inc.",
+        "locationConfidence": 0.0019395234
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 71,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

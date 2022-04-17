@@ -1,0 +1,30 @@
+Query to API:
+https://ws.lioservices.lrc.gov.on.ca/arcgis1071a/rest/services/LIO_OPEN_DATA/LIO_Open06/MapServer/5/query?outFields=OBJECTID%2CPOLICY_IDENT%2CDESIGNATION_ENG%2CNAME_ENG%2CCATEGORY_ENG%2COVERLAY_IND%2CEFFECTIVE_DATETIME&geometry=-80.521%2C45.615&geometryType=esriGeometryPoint&f=json&returnGeometry=false
+
+QUERY to Policy:
+https://www.lioapplications.lrc.gov.on.ca/services/CLUPA/xmlReader.aspx?xsl=web-primary.xsl&type=primary&POLICY_IDENT=C117
+
+Query to Policy metadata:
+https://www.lioapplications.lrc.gov.on.ca/services/CLUPA/dbclupaPolicyIdentify.ashx?lang=ENG&id=C117
+Alternative Query to Policy metadata
+https://www.lioapplications.lrc.gov.on.ca/services/CLUPA/dbclupaIdentify.ashx?lang=ENG&id=E304a
+
+Known POLICY_IDENT:
+C117 - Conservation land - Gibraltar Island
+G359 - General Use land - Area surrrounding Gibraltar Island
+P1915 - Provincial Park land - Algonquin Provincial Park
+E304a - Enhanced Management Area - Ferrie-Lount Township Area (no XML or XML under diff name)
+
+Image of Map (won't validate if not in live session)
+https://www.lioapplications.lrc.gov.on.ca/services/proxy/proxy.ashx?https://intra.ws.lioservices.lrc.gov.on.ca/arcgis4/rest/services/CLUPA/CLUPA_New_Map/MapServer/export?dpi=96&transparent=true&format=png8&layers=show%3A37%2C38%2C40%2C41%2C42%2C43%2C44%2C45%2C46%2C47&dynamicLayers=%5B%7B%22id%22%3A37%2C%22name%22%3A%22CLUPA%20South%22%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A37%7D%2C%22minScale%22%3A500000%2C%22maxScale%22%3A1000%7D%2C%7B%22id%22%3A38%2C%22name%22%3A%22Private%20Land%22%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A38%7D%2C%22minScale%22%3A4000000%2C%22maxScale%22%3A0%7D%2C%7B%22id%22%3A40%2C%22name%22%3A%22CLUPA%20Provincial%22%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A40%7D%2C%22minScale%22%3A100000%2C%22maxScale%22%3A0%7D%2C%7B%22id%22%3A45%2C%22name%22%3A%22Indian%20Reserve%22%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A45%7D%2C%22minScale%22%3A20000000%2C%22maxScale%22%3A0%7D%2C%7B%22id%22%3A46%2C%22name%22%3A%22Other%20Federal%20Land%22%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A46%7D%2C%22minScale%22%3A20000000%2C%22maxScale%22%3A0%7D%2C%7B%22id%22%3A47%2C%22name%22%3A%22National%20Park%22%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A47%7D%2C%22minScale%22%3A20000000%2C%22maxScale%22%3A0%7D%5D&bbox=-8964626.146105874%2C5719062.46205549%2C-8962380.808400188%2C5719578.411996372&bboxSR=102100&imageSR=102100&size=1880%2C432&f=image
+
+Meta data (won't validate if not in live session)
+https://www.lioapplications.lrc.gov.on.ca/services/proxy/proxy.ashx?https://intra.ws.lioservices.lrc.gov.on.ca/arcgis4/rest/services/CLUPA/CLUPA_New_Map/MapServer/identify?f=json&tolerance=0&returnGeometry=false&returnFieldName=false&returnUnformattedValues=false&imageDisplay=1880%2C432%2C96&geometry=%7B%22x%22%3A-8963552.444724273%2C%22y%22%3A5719320.384358549%7D&geometryType=esriGeometryPoint&sr=102100&mapExtent=-8964626.146105874%2C5719062.46205549%2C-8962380.808400188%2C5719578.411996371&layers=all%3A11%2C37%2C40
+
+Map Image tiles:
+https://ws.lioservices.lrc.gov.on.ca/arcgis1061a/rest/services/LIO_Cartographic/LIO_Topographic/MapServer/tile/17/46829/36216
+https://ws.lioservices.lrc.gov.on.ca/arcgis1061a/rest/services/LIO_Cartographic/LIO_Topographic/MapServer/tile/17/46829/36217
+https://ws.lioservices.lrc.gov.on.ca/arcgis1061a/rest/services/LIO_Cartographic/LIO_Topographic/MapServer/tile/17/46829/36218
+
+CORS Proxy:
+https://cors-anywhere.herokuapp.com/

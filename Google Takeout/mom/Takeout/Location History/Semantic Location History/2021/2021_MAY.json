@@ -1,0 +1,1713 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434032326,
+        "longitudeE7": -798166351,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, ON L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -638302657
+        },
+        "locationConfidence": 78.64784,
+        "calibratedProbability": 61.175934
+      },
+      "duration": {
+        "startTimestamp": "2021-05-10T12:06:33.652Z",
+        "endTimestamp": "2021-05-10T12:27:36.684Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 434031820,
+      "centerLngE7": -798165813,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434032195,
+        "longitudeE7": -798165860,
+        "placeId": "ChIJqV-uY0VhK4gRJEvKbGfudco",
+        "address": "4643 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "4643 Ethel Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 20.963205,
+        "calibratedProbability": 16.30615
+      }, {
+        "latitudeE7": 434010570,
+        "longitudeE7": -798141840,
+        "placeId": "ChIJFbYXykVhK4gRrkh211fMTDc",
+        "address": "Burlington, ON L7M\nCanada",
+        "name": "Dundas St + Cornerstone Dr",
+        "locationConfidence": 0.11580607,
+        "calibratedProbability": 0.09007932
+      }, {
+        "latitudeE7": 434036787,
+        "longitudeE7": -798164178,
+        "placeId": "ChIJ_1uyiE9hK4gRNuZkRVhd9uM",
+        "address": "4651 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "Fatimas\u0027 Enriched Home Daycare",
+        "locationConfidence": 0.103557296,
+        "calibratedProbability": 0.080551654
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Norton Leash Free Dog Park",
+        "locationConfidence": 0.06262488,
+        "calibratedProbability": 0.04871253
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 63,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 434031741,
+        "longitudeE7": -798165903,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 432601229,
+        "longitudeE7": -798695488,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-05-10T12:27:36.684Z",
+        "endTimestamp": "2021-05-10T13:13:58.517Z"
+      },
+      "distance": 17670,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 92.8381085395813
+      }, {
+        "activityType": "STILL",
+        "probability": 3.0128993093967438
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.8644777834415436
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.5665643606334925
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.2518763765692711
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.24260159116238356
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.09352750494144857
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.06585207302123308
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.028325477614998817
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.01232437789440155
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.00898766447789967
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.007790100062265992
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.0051200768211856484
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.0015406936654471792
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.7019989861921658E-7
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 432683661,
+          "lngE7": -798857923,
+          "accuracyMeters": 22,
+          "timestamp": "2021-05-10T13:09:42.395Z"
+        }, {
+          "latE7": 432597395,
+          "lngE7": -798716746,
+          "accuracyMeters": 31,
+          "timestamp": "2021-05-10T13:11:44.359Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 17670.39726930248
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 432601190,
+          "longitudeE7": -798695705,
+          "accuracyMetres": 41
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2021-05-10T13:13:57.146Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 432604239,
+        "longitudeE7": -798699374,
+        "placeId": "ChIJY-CAW4GbLIgR8iM9QXUasTY",
+        "address": "103 MacNab St N\nHamilton, ON L8R 2L9\nCanada",
+        "name": "Restoration House Hamilton",
+        "sourceInfo": {
+          "deviceTag": -638302657
+        },
+        "locationConfidence": 80.60346,
+        "calibratedProbability": 74.861885
+      },
+      "duration": {
+        "startTimestamp": "2021-05-10T13:13:58.517Z",
+        "endTimestamp": "2021-05-10T19:14:35.491Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 432604939,
+      "centerLngE7": -798697785,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 432615141,
+        "longitudeE7": -798694962,
+        "placeId": "ChIJAQDAMIGbLIgRgUquCm4mWdo",
+        "address": "52 Cannon St W Unit 103\nHamilton, ON L8R 2B5\nCanada",
+        "name": "Hamilton Medical Centre and Walk-In Clinic",
+        "locationConfidence": 5.2666664,
+        "calibratedProbability": 4.891509
+      }, {
+        "latitudeE7": 432603899,
+        "longitudeE7": -798695084,
+        "placeId": "ChIJ3Q9ZUIGbLIgR6vaHxqb4GN8",
+        "address": "95 MacNab St N\nHamilton, ON L8R 2L9\nCanada",
+        "name": "Hung Cheung Trading Co",
+        "locationConfidence": 3.0091536,
+        "calibratedProbability": 2.7948043
+      }, {
+        "latitudeE7": 432584184,
+        "longitudeE7": -798708274,
+        "placeId": "ChIJV0VGY4ObLIgRjwYWYLtuwDU",
+        "address": "2 King St W\nHamilton, ON L8P 1A1\nCanada",
+        "name": "Jackson Square",
+        "locationConfidence": 2.3992848,
+        "calibratedProbability": 2.228378
+      }, {
+        "latitudeE7": 432589028,
+        "longitudeE7": -798689472,
+        "placeId": "ChIJvQUaioObLIgRcsZmuE6oTgU",
+        "address": "77 James St N\nHamilton, ON L8R 2K3\nCanada",
+        "name": "Hamilton City Centre",
+        "locationConfidence": 1.4079926,
+        "calibratedProbability": 1.3076979
+      }, {
+        "latitudeE7": 432597759,
+        "longitudeE7": -798694362,
+        "placeId": "ChIJe0f8_IObLIgRaIgKva06cvI",
+        "address": "63 MacNab St N\nHamilton, ON L8R 2L8\nCanada",
+        "name": "Zipcar",
+        "locationConfidence": 0.88943255,
+        "calibratedProbability": 0.82607615
+      }, {
+        "latitudeE7": 432604250,
+        "longitudeE7": -798699279,
+        "placeId": "ChIJE-69UIGbLIgRNLxlyFYKmpk",
+        "address": "54 Vine St\nHamilton, ON L8R 2A7\nCanada",
+        "name": "United Hebrew Memorial Chapel",
+        "locationConfidence": 0.46879995,
+        "calibratedProbability": 0.4354062
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 432605774,
+        "longitudeE7": -798697874,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 434029478,
+        "longitudeE7": -798162956,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-05-10T19:14:35.491Z",
+        "endTimestamp": "2021-05-10T19:39:04.485Z"
+      },
+      "distance": 16964,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 98.92106056213379
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.3573555499315262
+      }, {
+        "activityType": "STILL",
+        "probability": 0.3107205033302307
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.15500293811783195
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.10427751112729311
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.05077151581645012
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.0334911048412323
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.02689666871447116
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.01852356654126197
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.011969161278102547
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.004958294448442757
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.0023955686629051343
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.0020171288269921206
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 5.647073066938901E-4
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 3.3555458411882455E-8
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 432603073,
+          "lngE7": -798699035
+        }, {
+          "latE7": 433265533,
+          "lngE7": -798446197
+        }, {
+          "latE7": 434029655,
+          "lngE7": -798164291
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ-7E7XIGbLIgRe5MZ6PZ0KUM",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJN7P3a4GbLIgRJjCiT_QDVgQ",
+          "duration": "40s"
+        }, {
+          "placeId": "ChIJa_m5DoGbLIgRFLAEaxFtQgA",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJfb4auoGbLIgRNrTCr6TI3yM",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJcbamz4GbLIgRGZeVQ4OqRco",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJDTBa1oGbLIgRRwHKAUpSVtE",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJo0MQfH-bLIgRS-1YSaE-crw",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJZ9bMcH-bLIgRPztTPFmnTcE",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJq41UC3-bLIgR8dpXVyHz3kg",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ0TNPBn-bLIgR3Cyex2HcMJk",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJTzf-AH-bLIgRiXmkqYI1PGo",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJd01aVn6bLIgRuVvBpq7i5oU",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJtU6nQn6bLIgRmPigSO-h00A",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ_2-Qcn6bLIgRH80eS7hO7HY",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJK0Ah4n2bLIgRraSGByPyYUM",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJvRih8X2bLIgRjnDBUJdll2A",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJWRwgin2bLIgR-0KjxFzumYM",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJvdy4h4KcLIgRRCjoKvAaXDQ",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJpf5mk4KcLIgRYqkEExzOv0s",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJPc-yxYKcLIgRGm7ju9b7vh8",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJ30y51YKcLIgRZMIKoM_pfL4",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJt1qj0pycLIgRaHEqxf7UvtY",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJQYoAzZycLIgR57qRzJPKvNs",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJJ31FsJycLIgRTyv8n3PJTWc",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJbYt7r5ycLIgRIZOhdZmx3y4",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJYzg1ppycLIgR-wkn7dcvu88",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJDVIdGpucLIgRDbPRiGmbuKY",
+          "duration": "37s"
+        }, {
+          "placeId": "ChIJv5-eeZqcLIgRis6ZDwJa6gU",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJVxAFlpCcLIgRmduDx3uZhEA",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJe08X25CcLIgRDva0WxUUEr4",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJRRfjLpGcLIgRyq-OlIfcLsM",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJWa0cNJGcLIgRqx4Oy_1q_4E",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJx6SRTJGcLIgRAZlhZcw0TfU",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJoem-TJGcLIgRsmGgwPV5BJ4",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJzybFVJGcLIgR97DGjLTmFfw",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJh3YFVZScLIgRgyn4YnQK6YY",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJef8gVZWcLIgRtVJhGBlGw9k",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJGVOciOmcLIgRYzp4o-T_0co",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJO-VfKOmcLIgRjJ7hT7d1MxU",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJqxtR-_qcLIgRpzyw4nYqBX4",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJo7eIfLqdLIgRZDU7U34Dcas",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJ4351db-dLIgRpjqHyeXsHQc",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJPzBcuOudLIgRm-41n_fEXvY",
+          "duration": "50s"
+        }, {
+          "placeId": "ChIJzTUpre-dLIgRm4ehFqEKKQ8",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJ-TIkhf-dLIgRiVfn5kFXqxw",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ62AGdABiK4gRqDuf7Q4LYTU",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJS8SZQABiK4gRZogmY6uGtg4",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJTSRSygFiK4gRPBdHfXGf5J8",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJv3i08gJiK4gRghmUIyRABqw",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJv3i08gJiK4gR0cQh-G195nc",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJ1VueNR1iK4gRVJkmCAn8L6Q",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ7a4XzidiK4gRI0ml9z0JJtY",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJH_S94NRjK4gRHIi7Qw-iOrA",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJg3hnvddjK4gR2Ig_pbLCYU0",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJ1ZkoGdhjK4gR4lD7B6nfwMs",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJkyM3Z2JhK4gRMJW0eF0GNSw",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ5XDUR2JhK4gRVmJqtqsl47M",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJ_UC412NhK4gRlM5daN7CHpU",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJrcI9QWFhK4gRvoznWjUj8kE",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJsXDALWFhK4gRpCts-7zssOo",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJDcR2KmdhK4gRiSV55P3l3u4",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJO8UFKWdhK4gRuKA8baXsa5I",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJx2F3a2dhK4gRsOP1HABf5ZA",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJI4rmfl1hK4gRahH0FVEeX4A",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJByFRO11hK4gRvD_28powkEM",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJ5wcqN0NhK4gRzEcddFOtItM",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJM-ktnURhK4gRHdmeXxOvjIs",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJBeVhiERhK4gRoYR8swG8DD4",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJZXChYURhK4gRK0j8mFjySqA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJQW6RRURhK4gRDZks18HTOl8",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJx8lONURhK4gRtw-t4Ebbu-I",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJG8P6tEVhK4gRdqOKNrV9Xzk",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJKZ9OsEVhK4gR-ZnppyUeFlc",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJKZ9OsEVhK4gRfO5h69jGfRQ",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJoSHMkUVhK4gRR6Vbr76Bdn0",
+          "duration": "37s"
+        }, {
+          "placeId": "ChIJZ8bIZE9hK4gREaF5OzkYqas",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJl2tcgk9hK4gRWwO221sE4ao",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJy1VaZkVhK4gRQF4cjSbn4js",
+          "duration": "44s"
+        }],
+        "distanceMeters": 20078.2712195663,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 434030701,
+          "longitudeE7": -798164146,
+          "accuracyMetres": 79
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2021-05-10T19:40:05.943Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434032326,
+        "longitudeE7": -798166351,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, ON L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -638302657
+        },
+        "locationConfidence": 70.7038,
+        "calibratedProbability": 53.10174
+      },
+      "duration": {
+        "startTimestamp": "2021-05-10T19:39:04.485Z",
+        "endTimestamp": "2021-05-19T07:38:09.835Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 434031662,
+      "centerLngE7": -798166303,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434032195,
+        "longitudeE7": -798165860,
+        "placeId": "ChIJqV-uY0VhK4gRJEvKbGfudco",
+        "address": "4643 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "4643 Ethel Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 29.013687,
+        "calibratedProbability": 21.790588
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Norton Leash Free Dog Park",
+        "locationConfidence": 0.102276236,
+        "calibratedProbability": 0.07681407
+      }, {
+        "latitudeE7": 434036787,
+        "longitudeE7": -798164178,
+        "placeId": "ChIJ_1uyiE9hK4gRNuZkRVhd9uM",
+        "address": "4651 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "Fatimas\u0027 Enriched Home Daycare",
+        "locationConfidence": 0.05705044,
+        "calibratedProbability": 0.04284746
+      }, {
+        "latitudeE7": 433921858,
+        "longitudeE7": -798084095,
+        "placeId": "ChIJI0mNuT9hK4gRlBJlauNY9Zw",
+        "address": "2155 Country Club Dr\nBurlington, ON L7M 4A8\nCanada",
+        "name": "Millcroft Golf Club",
+        "locationConfidence": 0.037907142,
+        "calibratedProbability": 0.028469976
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 56,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434032326,
+        "longitudeE7": -798166351,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, ON L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -638302657
+        },
+        "locationConfidence": 65.84679,
+        "calibratedProbability": 48.3391
+      },
+      "duration": {
+        "startTimestamp": "2021-05-21T12:44:24.192Z",
+        "endTimestamp": "2021-05-21T13:03:35.881Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 434031400,
+      "centerLngE7": -798165433,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434032195,
+        "longitudeE7": -798165860,
+        "placeId": "ChIJqV-uY0VhK4gRJEvKbGfudco",
+        "address": "4643 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "4643 Ethel Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 33.31242,
+        "calibratedProbability": 24.45514
+      }, {
+        "latitudeE7": 434010570,
+        "longitudeE7": -798141840,
+        "placeId": "ChIJFbYXykVhK4gRrkh211fMTDc",
+        "address": "Burlington, ON L7M\nCanada",
+        "name": "Dundas St + Cornerstone Dr",
+        "locationConfidence": 0.38346633,
+        "calibratedProbability": 0.2815083
+      }, {
+        "latitudeE7": 434036787,
+        "longitudeE7": -798164178,
+        "placeId": "ChIJ_1uyiE9hK4gRNuZkRVhd9uM",
+        "address": "4651 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "Fatimas\u0027 Enriched Home Daycare",
+        "locationConfidence": 0.16920893,
+        "calibratedProbability": 0.12421878
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Norton Leash Free Dog Park",
+        "locationConfidence": 0.09304153,
+        "calibratedProbability": 0.06830316
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 53,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 434031556,
+        "longitudeE7": -798165270,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 432610222,
+        "longitudeE7": -798756710,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-05-21T13:03:35.881Z",
+        "endTimestamp": "2021-05-21T14:39:47.372Z"
+      },
+      "distance": 16512,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 45.88975012302399
+      }, {
+        "activityType": "CYCLING",
+        "probability": 27.870535850524902
+      }, {
+        "activityType": "STILL",
+        "probability": 7.25187212228775
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.862253159284592
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 5.3595297038555145
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 2.6916587725281715
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 2.1796589717268944
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.1428056061267853
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.3955724649131298
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.22562008816748857
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.07251712959259748
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.026030660956166685
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.02521646674722433
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.006973979907343164
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.009200834012347E-7
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 434031372,
+          "lngE7": -798163833
+        }, {
+          "latE7": 433845367,
+          "lngE7": -798325042
+        }, {
+          "latE7": 432610855,
+          "lngE7": -798759231
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJy1VaZkVhK4gRQV4cjSbn4js",
+          "duration": "133s"
+        }, {
+          "placeId": "ChIJl2tcgk9hK4gRWgO221sE4ao",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJZ8bIZE9hK4gREKF5OzkYqas",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJoSHMkUVhK4gRRqVbr76Bdn0",
+          "duration": "164s"
+        }, {
+          "placeId": "ChIJKZ9OsEVhK4gRfe5h69jGfRQ",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJKZ9OsEVhK4gR-JnppyUeFlc",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJG8P6tEVhK4gRd6OKNrV9Xzk",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJy0llXkRhK4gRDj8lZUxpSZE",
+          "duration": "109s"
+        }, {
+          "placeId": "ChIJh1YIYkNhK4gR_KMrN_tcVhI",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJ6ZMkXUNhK4gRV9E1Do3ONLA",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJd7GHJl1hK4gRkeatZIZlCHE",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJS1yZFF1hK4gRd2MzB6lBx4Q",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJu7jceF1hK4gR-YqvLcYHPvE",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJ-RR-e2dhK4gRXWF9OMZH7DU",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJUQ9FaWdhK4gR4sq8-kzhkLA",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJUQ9FaWdhK4gRrnbngZsYjRI",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJ5bTlPmdhK4gR6fPvE_QttZ8",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJ2TyYL2dhK4gRo602N8LheXo",
+          "duration": "97s"
+        }, {
+          "placeId": "ChIJDcR2KmdhK4gR_YgdQOMVTeA",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJ52GGMGFhK4gRNkWsNiQUrio",
+          "duration": "115s"
+        }, {
+          "placeId": "ChIJVfCOfWFhK4gRAuLadQ5jCRA",
+          "duration": "85s"
+        }, {
+          "placeId": "ChIJMSqGdNhjK4gR4cq0ee-gpWI",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJR-PBENhjK4gRUO-Y92JqKR4",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJoT8yhddjK4gRxvkJOrz0wps",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJlbn_n9djK4gRk0-GO4HNQ74",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJ413aGtdjK4gRs4lso62PGPg",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJbQYW3tZjK4gROMzbf8Hnzuo",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJ89zE1tZjK4gR93ss5bfQaAQ",
+          "duration": "157s"
+        }, {
+          "placeId": "ChIJgTsE3tZjK4gRxvyatypQCbs",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJgy-5JNRjK4gR49zxvqwc9Os",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJgy-5JNRjK4gRxyIEgnvV0S0",
+          "duration": "85s"
+        }, {
+          "placeId": "ChIJ1TaH3NRjK4gRA7HmhqndqKs",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJ1TaH3NRjK4gRL1vumrbbvhs",
+          "duration": "66s"
+        }, {
+          "placeId": "ChIJjS79AytiK4gRg_exj4VKqK8",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJowy1Tx5iK4gRJc7PtzGo3aY",
+          "duration": "145s"
+        }, {
+          "placeId": "ChIJowy1Tx5iK4gRMvnFxH46CSA",
+          "duration": "60s"
+        }, {
+          "placeId": "ChIJu-2CFh1iK4gR-8s5vd1pk9c",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJeXe0xgJiK4gRPy2fXozVZsA",
+          "duration": "85s"
+        }, {
+          "placeId": "ChIJd8alQwJiK4gRG5IbIXC78FQ",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJg1J1tQFiK4gRduBq6ycpuBc",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJO35iQQBiK4gRLO0D-WMuxxU",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJPanKeQBiK4gRPsLThPpFTPo",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJlUBlnf-dLIgR3z4a6mmBy0s",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJ_93nIP-dLIgRzXigSmqIaUU",
+          "duration": "54s"
+        }, {
+          "placeId": "ChIJG2fy1vudLIgRr5ViiZUqNiw",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJ37SNQ_qdLIgRzHp_wLq5_Sw",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJL1A48OudLIgRFtC6W5bRiow",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJGQn2Y7qdLIgRzlt3Kapcc4s",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJZw0mcrCdLIgRdQGtMPb7M3g",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJkcm9fq6dLIgRWzYfwzWwfLY",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJoYw0i_-cLIgRgXYOWmdGVeQ",
+          "duration": "97s"
+        }, {
+          "placeId": "ChIJZyju4vqcLIgRBVMucp_PV6s",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJNaZyaeWcLIgR_h6IhU1tucg",
+          "duration": "103s"
+        }, {
+          "placeId": "ChIJ4_bS2-icLIgRmkCR-ktiu9k",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJwTGIW5WcLIgR0OZfQgtqXt8",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJST3rW5WcLIgRV2R-OyV-8ZE",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJWwytSJScLIgRGMBvRIzhCTw",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJS7Wrq5acLIgRR0E-SY9gSG8",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJ28EorZacLIgRWAeg1sbukX4",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJx6SRTJGcLIgRAJlhZcw0TfU",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJWa0cNJGcLIgRqh4Oy_1q_4E",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJRRfjLpGcLIgRy6-OlIfcLsM",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJe08X25CcLIgRD_a0WxUUEr4",
+          "duration": "66s"
+        }, {
+          "placeId": "ChIJVxAFlpCcLIgRmNuDx3uZhEA",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJv5-eeZqcLIgRi86ZDwJa6gU",
+          "duration": "78s"
+        }, {
+          "placeId": "ChIJDVIdGpucLIgRDLPRiGmbuKY",
+          "duration": "164s"
+        }, {
+          "placeId": "ChIJYzg1ppycLIgR-gkn7dcvu88",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJbYt7r5ycLIgRIJOhdZmx3y4",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJJ31FsJycLIgRTiv8n3PJTWc",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJu5y2zZycLIgRZhntCN5Hghc",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJhblm0pycLIgRLbRYVCMCVmM",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJ9QJl05ycLIgRBa3X3TDXHDE",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJr44n1YKcLIgRuw4xO9jXpkE",
+          "duration": "54s"
+        }, {
+          "placeId": "ChIJS7YB0oKcLIgRiCaCvFSVGkQ",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJEd9ZzoKcLIgRijcSsyeJwms",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJffioyIKcLIgRGUBDVLYvLyk",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJ6elMx4KcLIgRHVLyHKs0kQA",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJMyUrvoKcLIgRgVkwg1JMiYg",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJk3GvloKcLIgRP3VChvuXFVo",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJTQ-Fj4KcLIgRO7VoCQV2JaA",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJCz1DfoKcLIgRB32a_JPA7QM",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJT6_Yh32bLIgRpoyTf4eOr18",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJle7zi32bLIgRHFAcB88aadI",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJq3GI732bLIgRk7v89ngOIHE",
+          "duration": "91s"
+        }, {
+          "placeId": "ChIJsYzNc36bLIgRcIFPuGmPXoE",
+          "duration": "54s"
+        }, {
+          "placeId": "ChIJwYGmaH6bLIgRTAgiZKFdfzw",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJQ6JsXX6bLIgR24AT6o_u_90",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJe1sIWX6bLIgRE0dBDiqtkYw",
+          "duration": "78s"
+        }, {
+          "placeId": "ChIJn-Ac_36bLIgRg0FShZOWBhc",
+          "duration": "54s"
+        }, {
+          "placeId": "ChIJj5fOA3-bLIgRJO6ItDsOMag",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJKztGBX-bLIgRRuq9EXffTRc",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJ7bnEE3-bLIgRFvgDGdHZXYU",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJa1HZQn-bLIgRAfs2_XTcPBU",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJ0-teOH-bLIgRUnjYk5gLG-k",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJ4XXSOX-bLIgRGmviE4rOuiU",
+          "duration": "60s"
+        }],
+        "distanceMeters": 19957.920767203064,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 432610222,
+          "longitudeE7": -798756710,
+          "accuracyMetres": 73
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2021-05-21T14:39:47.372Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 432613445,
+        "longitudeE7": -798755158,
+        "placeId": "ChIJocsqVW2bLIgRclZuO_PYNng",
+        "address": "221 York Blvd\nHamilton, ON L8R 1Y6\nCanada",
+        "name": "Hamilton Downtown Islamic School",
+        "sourceInfo": {
+          "deviceTag": -638302657
+        },
+        "locationConfidence": 51.071453,
+        "calibratedProbability": 36.7797
+      },
+      "duration": {
+        "startTimestamp": "2021-05-21T14:39:47.372Z",
+        "endTimestamp": "2021-05-21T20:18:22.677Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 432610050,
+      "centerLngE7": -798756775,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 432611271,
+        "longitudeE7": -798755902,
+        "placeId": "ChIJm65ciYWbLIgRqayD_u67McI",
+        "address": "221 York Blvd\nHamilton, ON L8R 1Y6\nCanada",
+        "name": "Hamilton Downtown Mosque",
+        "locationConfidence": 39.40577,
+        "calibratedProbability": 28.378523
+      }, {
+        "latitudeE7": 432584184,
+        "longitudeE7": -798708274,
+        "placeId": "ChIJV0VGY4ObLIgRjwYWYLtuwDU",
+        "address": "2 King St W\nHamilton, ON L8P 1A1\nCanada",
+        "name": "Jackson Square",
+        "locationConfidence": 1.7499352,
+        "calibratedProbability": 1.2602361
+      }, {
+        "latitudeE7": 432585183,
+        "longitudeE7": -798765962,
+        "placeId": "ChIJS6S1-nibLIgRtH3bnaoLpxU",
+        "address": "239 King St W\nHamilton, ON L8P 1A7\nCanada",
+        "name": "Tim Hortons",
+        "locationConfidence": 1.5442628,
+        "calibratedProbability": 1.1121188
+      }, {
+        "latitudeE7": 432605406,
+        "longitudeE7": -798762826,
+        "placeId": "ChIJ14yyzHibLIgRpdz0P0dmtIg",
+        "address": "81 Napier St\nHamilton, ON L8R 1R9\nCanada",
+        "name": "81 Napier St",
+        "locationConfidence": 0.4801539,
+        "calibratedProbability": 0.34578842
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 41,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 432610100,
+        "longitudeE7": -798756765,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 434031306,
+        "longitudeE7": -798166697,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-05-21T20:18:22.677Z",
+        "endTimestamp": "2021-05-21T20:49:44.442Z"
+      },
+      "distance": 16799,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 58.340245485305786
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 13.844333589076996
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 8.023754507303238
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 4.550442099571228
+      }, {
+        "activityType": "CYCLING",
+        "probability": 4.366612434387207
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.270479083061218
+      }, {
+        "activityType": "STILL",
+        "probability": 3.6693301051855087
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.7875611782073975
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.7104316726326942
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.25349881034344435
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.08531142957508564
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.07730482029728591
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.011738098692148924
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.008936526864999905
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 2.3801067072781734E-5
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 432610702,
+          "lngE7": -798759307
+        }, {
+          "latE7": 432862586,
+          "lngE7": -798967437
+        }, {
+          "latE7": 434030914,
+          "lngE7": -798163986
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ4XXSOX-bLIgRGmviE4rOuiU",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJ4XXSOX-bLIgR5AydwtWIMiQ",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJW-meMH-bLIgRA7gFN_yt8HM",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJD5V2FX-bLIgRzgOsSg2-7L0",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJyxdfbX-bLIgRvZVAytffn_Y",
+          "duration": "31s"
+        }, {
+          "placeId": "ChIJq41UC3-bLIgR8dpXVyHz3kg",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ0TNPBn-bLIgR3Cyex2HcMJk",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJTzf-AH-bLIgRiXmkqYI1PGo",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJd01aVn6bLIgRuVvBpq7i5oU",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJtU6nQn6bLIgRmPigSO-h00A",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ_2-Qcn6bLIgRH80eS7hO7HY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJK0Ah4n2bLIgRraSGByPyYUM",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJvRih8X2bLIgRjnDBUJdll2A",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJWRwgin2bLIgR-0KjxFzumYM",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJvdy4h4KcLIgRRCjoKvAaXDQ",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJpf5mk4KcLIgRYqkEExzOv0s",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJPc-yxYKcLIgRGm7ju9b7vh8",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ30y51YKcLIgRZMIKoM_pfL4",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJt1qj0pycLIgRaHEqxf7UvtY",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJQYoAzZycLIgR57qRzJPKvNs",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJJ31FsJycLIgRTyv8n3PJTWc",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJbYt7r5ycLIgRIZOhdZmx3y4",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJYzg1ppycLIgR-wkn7dcvu88",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJDVIdGpucLIgRDbPRiGmbuKY",
+          "duration": "51s"
+        }, {
+          "placeId": "ChIJv5-eeZqcLIgRis6ZDwJa6gU",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJVxAFlpCcLIgRmduDx3uZhEA",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJe08X25CcLIgRDva0WxUUEr4",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJRRfjLpGcLIgRyq-OlIfcLsM",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJWa0cNJGcLIgRqx4Oy_1q_4E",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJx6SRTJGcLIgRAZlhZcw0TfU",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJoem-TJGcLIgRsmGgwPV5BJ4",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJzybFVJGcLIgR97DGjLTmFfw",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJh3YFVZScLIgRgyn4YnQK6YY",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJef8gVZWcLIgRtVJhGBlGw9k",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJGVOciOmcLIgRYzp4o-T_0co",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJO-VfKOmcLIgRjJ7hT7d1MxU",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJqxtR-_qcLIgRpzyw4nYqBX4",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJo7eIfLqdLIgRZDU7U34Dcas",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ4351db-dLIgRpjqHyeXsHQc",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJPzBcuOudLIgRm-41n_fEXvY",
+          "duration": "57s"
+        }, {
+          "placeId": "ChIJzTUpre-dLIgRm4ehFqEKKQ8",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ-TIkhf-dLIgRiVfn5kFXqxw",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ62AGdABiK4gRqDuf7Q4LYTU",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJS8SZQABiK4gRZogmY6uGtg4",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJTSRSygFiK4gRPBdHfXGf5J8",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJv3i08gJiK4gRghmUIyRABqw",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJv3i08gJiK4gR0cQh-G195nc",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ1VueNR1iK4gRVJkmCAn8L6Q",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ7a4XzidiK4gRI0ml9z0JJtY",
+          "duration": "93s"
+        }, {
+          "placeId": "ChIJH_S94NRjK4gRHIi7Qw-iOrA",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJg3hnvddjK4gR2Ig_pbLCYU0",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJ1ZkoGdhjK4gR4lD7B6nfwMs",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJkyM3Z2JhK4gRMJW0eF0GNSw",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ5XDUR2JhK4gRVmJqtqsl47M",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ_UC412NhK4gRlM5daN7CHpU",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJrcI9QWFhK4gRvoznWjUj8kE",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJsXDALWFhK4gRpCts-7zssOo",
+          "duration": "35s"
+        }, {
+          "placeId": "ChIJDcR2KmdhK4gRiSV55P3l3u4",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJO8UFKWdhK4gRuKA8baXsa5I",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJx2F3a2dhK4gRsOP1HABf5ZA",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJI4rmfl1hK4gRahH0FVEeX4A",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJByFRO11hK4gRvD_28powkEM",
+          "duration": "31s"
+        }, {
+          "placeId": "ChIJ5wcqN0NhK4gRzEcddFOtItM",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJM-ktnURhK4gRHdmeXxOvjIs",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJBeVhiERhK4gRoYR8swG8DD4",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJZXChYURhK4gRK0j8mFjySqA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJQW6RRURhK4gRDZks18HTOl8",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJx8lONURhK4gRtw-t4Ebbu-I",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJG8P6tEVhK4gRdqOKNrV9Xzk",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJKZ9OsEVhK4gR-ZnppyUeFlc",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJKZ9OsEVhK4gRfO5h69jGfRQ",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJoSHMkUVhK4gRR6Vbr76Bdn0",
+          "duration": "51s"
+        }, {
+          "placeId": "ChIJZ8bIZE9hK4gREaF5OzkYqas",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJl2tcgk9hK4gRWwO221sE4ao",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJy1VaZkVhK4gRQF4cjSbn4js",
+          "duration": "51s"
+        }],
+        "distanceMeters": 19693.191439420483,
+        "travelMode": "DRIVE",
+        "confidence": 0.9976030312006557
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 434031293,
+          "longitudeE7": -798165662,
+          "accuracyMetres": 80
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2021-05-21T20:51:44.038Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434032326,
+        "longitudeE7": -798166351,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, ON L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -638302657
+        },
+        "locationConfidence": 80.35807,
+        "calibratedProbability": 67.232
+      },
+      "duration": {
+        "startTimestamp": "2021-05-21T20:49:44.442Z",
+        "endTimestamp": "2021-05-24T11:19:39.375Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 434031553,
+      "centerLngE7": -798165907,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434032195,
+        "longitudeE7": -798165860,
+        "placeId": "ChIJqV-uY0VhK4gRJEvKbGfudco",
+        "address": "4643 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "4643 Ethel Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 19.031973,
+        "calibratedProbability": 15.9232
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Norton Leash Free Dog Park",
+        "locationConfidence": 0.29848635,
+        "calibratedProbability": 0.24973017
+      }, {
+        "latitudeE7": 434010570,
+        "longitudeE7": -798141840,
+        "placeId": "ChIJFbYXykVhK4gRrkh211fMTDc",
+        "address": "Burlington, ON L7M\nCanada",
+        "name": "Dundas St + Cornerstone Dr",
+        "locationConfidence": 0.19402546,
+        "calibratedProbability": 0.16233242
+      }, {
+        "latitudeE7": 434027270,
+        "longitudeE7": -798188414,
+        "placeId": "ChIJO4tTsVphK4gRGWvj7IUsKOg",
+        "locationConfidence": 0.03506341,
+        "calibratedProbability": 0.029335983
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434032326,
+        "longitudeE7": -798166351,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, ON L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -638302657
+        },
+        "locationConfidence": 88.7181,
+        "calibratedProbability": 67.43614
+      },
+      "duration": {
+        "startTimestamp": "2021-05-27T18:58:26.530Z",
+        "endTimestamp": "2021-05-28T14:07:59.039Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 434031683,
+      "centerLngE7": -798165350,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434032195,
+        "longitudeE7": -798165860,
+        "placeId": "ChIJqV-uY0VhK4gRJEvKbGfudco",
+        "address": "4643 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "4643 Ethel Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 10.821297,
+        "calibratedProbability": 8.225451
+      }, {
+        "latitudeE7": 434036787,
+        "longitudeE7": -798164178,
+        "placeId": "ChIJ_1uyiE9hK4gRNuZkRVhd9uM",
+        "address": "4651 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "Fatimas\u0027 Enriched Home Daycare",
+        "locationConfidence": 0.21041921,
+        "calibratedProbability": 0.15994321
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Norton Leash Free Dog Park",
+        "locationConfidence": 0.085994564,
+        "calibratedProbability": 0.065365925
+      }, {
+        "latitudeE7": 434010570,
+        "longitudeE7": -798141840,
+        "placeId": "ChIJFbYXykVhK4gRrkh211fMTDc",
+        "address": "Burlington, ON L7M\nCanada",
+        "name": "Dundas St + Cornerstone Dr",
+        "locationConfidence": 0.07047069,
+        "calibratedProbability": 0.053565968
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 434031668,
+        "longitudeE7": -798165288,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 434031331,
+        "longitudeE7": -798164819,
+        "sourceInfo": {
+          "deviceTag": -638302657
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-05-28T14:07:59.039Z",
+        "endTimestamp": "2021-05-28T23:54:51.714Z"
+      },
+      "distance": 33208,
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 61.5445077419281
+      }, {
+        "activityType": "STILL",
+        "probability": 28.697770833969116
+      }, {
+        "activityType": "WALKING",
+        "probability": 3.840181604027748
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 1.0918360203504562
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.050877571105957
+      }, {
+        "activityType": "FLYING",
+        "probability": 1.0359510779380798
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.0175987146794796
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.758058950304985
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.6839442532509565
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.1395044499076903
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.059917778708040714
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.04151729226578027
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.02077422250295058
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.017559101979713887
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.5855489365890207E-6
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 432594733,
+          "lngE7": -798724415,
+          "accuracyMeters": 15,
+          "timestamp": "2021-05-28T18:35:45.139Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 33206.2336061074
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434031868,
+        "longitudeE7": -798165741,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, ON L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -638302657
+        },
+        "locationConfidence": 89.785645,
+        "calibratedProbability": 77.860855
+      },
+      "duration": {
+        "startTimestamp": "2021-05-28T23:54:51.714Z",
+        "endTimestamp": "2021-06-05T11:46:24.671Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 434031433,
+      "centerLngE7": -798164847,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434010570,
+        "longitudeE7": -798141840,
+        "placeId": "ChIJFbYXykVhK4gRrkh211fMTDc",
+        "address": "Burlington, ON L7M\nCanada",
+        "name": "Dundas St + Cornerstone Dr",
+        "locationConfidence": 0.539447,
+        "calibratedProbability": 0.46780092
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Norton Leash Free Dog Park",
+        "locationConfidence": 0.18256079,
+        "calibratedProbability": 0.15831417
+      }, {
+        "latitudeE7": 434036787,
+        "longitudeE7": -798164178,
+        "placeId": "ChIJ_1uyiE9hK4gRNuZkRVhd9uM",
+        "address": "4651 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "Fatimas\u0027 Enriched Home Daycare",
+        "locationConfidence": 0.11886153,
+        "calibratedProbability": 0.103075065
+      }, {
+        "latitudeE7": 434039730,
+        "longitudeE7": -798146360,
+        "placeId": "ChIJhxkqb09hK4gRm1naNa4cYJM",
+        "locationConfidence": 0.108583815,
+        "calibratedProbability": 0.09416237
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 75,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

@@ -1,0 +1,1272 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 434034793,
+        "longitudeE7": -798145896
+      },
+      "endLocation": {
+        "latitudeE7": 432314889,
+        "longitudeE7": -797748685
+      },
+      "duration": {
+        "startTimestamp": "2020-02-03T14:27:39.372Z",
+        "endTimestamp": "2020-02-03T14:44:08.020Z"
+      },
+      "distance": 19048,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 94.69428062438965
+      }, {
+        "activityType": "STILL",
+        "probability": 3.027733415365219
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.0892930440604687
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 434034767,
+          "lngE7": -798145599
+        }, {
+          "latE7": 432848091,
+          "lngE7": -797894744
+        }, {
+          "latE7": 432319412,
+          "lngE7": -797750396
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJoSHMkUVhK4gRRqVbr76Bdn0"
+        }, {
+          "placeId": "ChIJG8P6tEVhK4gRd6OKNrV9Xzk"
+        }, {
+          "placeId": "ChIJy0llXkRhK4gRDj8lZUxpSZE"
+        }, {
+          "placeId": "ChIJh1YIYkNhK4gR_KMrN_tcVhI"
+        }, {
+          "placeId": "ChIJ6ZMkXUNhK4gRV9E1Do3ONLA"
+        }, {
+          "placeId": "ChIJd7GHJl1hK4gRkeatZIZlCHE"
+        }, {
+          "placeId": "ChIJS1yZFF1hK4gRd2MzB6lBx4Q"
+        }, {
+          "placeId": "ChIJu7jceF1hK4gR-YqvLcYHPvE"
+        }, {
+          "placeId": "ChIJ-RR-e2dhK4gRXWF9OMZH7DU"
+        }, {
+          "placeId": "ChIJ5bTlPmdhK4gR6fPvE_QttZ8"
+        }, {
+          "placeId": "ChIJ2TyYL2dhK4gRo602N8LheXo"
+        }, {
+          "placeId": "ChIJDcR2KmdhK4gR_YgdQOMVTeA"
+        }, {
+          "placeId": "ChIJ52GGMGFhK4gRNkWsNiQUrio"
+        }, {
+          "placeId": "ChIJVfCOfWFhK4gRAuLadQ5jCRA"
+        }, {
+          "placeId": "ChIJMSqGdNhjK4gR4cq0ee-gpWI"
+        }, {
+          "placeId": "ChIJR-PBENhjK4gRUO-Y92JqKR4"
+        }, {
+          "placeId": "ChIJoT8yhddjK4gRxvkJOrz0wps"
+        }, {
+          "placeId": "ChIJlbn_n9djK4gRk0-GO4HNQ74"
+        }, {
+          "placeId": "ChIJ413aGtdjK4gRs4lso62PGPg"
+        }, {
+          "placeId": "ChIJbQYW3tZjK4gROMzbf8Hnzuo"
+        }, {
+          "placeId": "ChIJ89zE1tZjK4gR93ss5bfQaAQ"
+        }, {
+          "placeId": "ChIJgTsE3tZjK4gRxvyatypQCbs"
+        }, {
+          "placeId": "ChIJHf57RdRjK4gRNsbf8m_G64c"
+        }, {
+          "placeId": "ChIJu-2CFh1iK4gR-8s5vd1pk9c"
+        }, {
+          "placeId": "ChIJeXe0xgJiK4gRPy2fXozVZsA"
+        }, {
+          "placeId": "ChIJd8alQwJiK4gRG5IbIXC78FQ"
+        }, {
+          "placeId": "ChIJMRERTQBiK4gR0_z7QS08MRk"
+        }, {
+          "placeId": "ChIJi7mwZQBiK4gRRpv6J78lRfs"
+        }, {
+          "placeId": "ChIJkWjGCAeeLIgRIkhaBqMRkEo"
+        }, {
+          "placeId": "ChIJO83_sgeeLIgR3YqzjmfnexI"
+        }, {
+          "placeId": "ChIJRYd6ngieLIgRKnkhufSKnD4"
+        }, {
+          "placeId": "ChIJBTDEmAieLIgR3KbQ0_-YxBo"
+        }, {
+          "placeId": "ChIJEUdPuAieLIgR7nl-kg6ZDTk"
+        }, {
+          "placeId": "ChIJf5VKLQ-eLIgRC6lA10OAsVo"
+        }, {
+          "placeId": "ChIJi4MC3A6eLIgRWdR11k3aYJs"
+        }, {
+          "placeId": "ChIJ4fDWYw6eLIgR4d_WuTmUmDE"
+        }, {
+          "placeId": "ChIJLUGQRRKeLIgRLfduVPzEvOk"
+        }, {
+          "placeId": "ChIJu7z3chOeLIgRrc7Vaqe78SA"
+        }, {
+          "placeId": "ChIJGyaynWqeLIgRZ3ScQuhhqTQ"
+        }, {
+          "placeId": "ChIJr_IxUkOeLIgRyD5fcz035MI"
+        }, {
+          "placeId": "ChIJ-yLjz1ueLIgRbp3ApDYYDY8"
+        }, {
+          "placeId": "ChIJD-SF1lueLIgRbxoSzjdMecE"
+        }, {
+          "placeId": "ChIJXVsyf1meLIgRVCFn-Uu36DY"
+        }, {
+          "placeId": "ChIJX8YXvfmeLIgR_gLsM3NqFks"
+        }, {
+          "placeId": "ChIJicVS1fueLIgRmK1xChpns78"
+        }, {
+          "placeId": "ChIJ7fs0uPueLIgRYJ8EjsS5JD4"
+        }, {
+          "placeId": "ChIJNdrRdOOeLIgRi_vQw8AGkZ0"
+        }, {
+          "placeId": "ChIJt2RFtjSfLIgR3Gl0emttaF8"
+        }, {
+          "placeId": "ChIJcQFeH8uYLIgRgsR5RC4vhrY"
+        }, {
+          "placeId": "ChIJ5TOjW8qYLIgRIkb0CfWqlvg"
+        }, {
+          "placeId": "ChIJsczxFMqYLIgRHqq1YP7T37c"
+        }, {
+          "placeId": "ChIJQwjj_MWYLIgRLs-zx6dYcco"
+        }, {
+          "placeId": "ChIJvQndvcSYLIgRG5Ok63H8c0Y"
+        }, {
+          "placeId": "ChIJ6-9rrsSYLIgRf077ao3zTy4"
+        }, {
+          "placeId": "ChIJwX7eVduYLIgRC0oEmIioYZc"
+        }, {
+          "placeId": "ChIJYZsaqdyYLIgReKlg1E8bN2Q"
+        }, {
+          "placeId": "ChIJYZsaqdyYLIgRT72imLcvf9o"
+        }, {
+          "placeId": "ChIJIVNjN8OYLIgRW7bjS8grw1E"
+        }, {
+          "placeId": "ChIJkZdmO8OYLIgRgSbWS1azEhE"
+        }, {
+          "placeId": "ChIJ_yOuHMOYLIgRQgSJX6FIjTM"
+        }, {
+          "placeId": "ChIJlwQ1AsOYLIgRBiA4pI-cAv4"
+        }, {
+          "placeId": "ChIJ1WWwU8KYLIgRdT9Xwm_F37A"
+        }, {
+          "placeId": "ChIJ--8tUcKYLIgRP8oWvcStJCI"
+        }, {
+          "placeId": "ChIJM-d3OOiYLIgR6P0KQTmS6mM"
+        }, {
+          "placeId": "ChIJXWax9OiYLIgRENvU3foV1G8"
+        }, {
+          "placeId": "ChIJ8dtwsOiYLIgRbVMaaN9NAa0"
+        }, {
+          "placeId": "ChIJm7Y7_OWYLIgRnaGQIxRawwo"
+        }, {
+          "placeId": "ChIJbUC94OWYLIgRodSlDJq89HM"
+        }],
+        "distanceMeters": 22571.214410927238,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 432314889,
+          "longitudeE7": -797748685,
+          "accuracyMetres": 72
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2020-02-03T14:44:08.020Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 432308038,
+        "longitudeE7": -797751636,
+        "placeId": "ChIJgw3Yv-WYLIgRGjF0nIGPTuU",
+        "address": "631 Queenston Rd Unit 101\nHamilton, ON L8K 1J7\nCanada",
+        "name": "631 Queenston Rd Unit 101",
+        "sourceInfo": {
+          "deviceTag": -524241833
+        },
+        "locationConfidence": 95.38585,
+        "calibratedProbability": 70.98159
+      },
+      "duration": {
+        "startTimestamp": "2020-02-03T14:44:08.020Z",
+        "endTimestamp": "2020-02-03T23:28:46.104Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 432317267,
+      "centerLngE7": -797808194,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 432317630,
+        "longitudeE7": -797810400,
+        "placeId": "ChIJjzkpx-OYLIgRyfWdI_dtiW0",
+        "address": "Hamilton, ON L8K\nCanada",
+        "name": "QUEENSTON at POTTRUFF",
+        "locationConfidence": 1.4723421,
+        "calibratedProbability": 1.0956466
+      }, {
+        "latitudeE7": 432315980,
+        "longitudeE7": -797816718,
+        "placeId": "ChIJW0Z5tuOYLIgRyyzeDFyXzow",
+        "address": "Queenston Rd\n484 Queenston Rd\nHamilton, ON L8K 1J4\nCanada",
+        "name": "Birchwood Apartments",
+        "locationConfidence": 1.2188072,
+        "calibratedProbability": 0.9069781
+      }, {
+        "latitudeE7": 432310764,
+        "longitudeE7": -797811048,
+        "placeId": "ChIJTXG_lOOYLIgRXsyRPU0gq5U",
+        "address": "494 Queenston Rd\nHamilton, ON L8K 1J5\nCanada",
+        "name": "Eldorado - Homestead Land Holdings",
+        "locationConfidence": 1.1848439,
+        "calibratedProbability": 0.8817042
+      }, {
+        "latitudeE7": 432299920,
+        "longitudeE7": -797742310,
+        "placeId": "ChIJGy_hguWYLIgR0OuVUhP5fMs",
+        "address": "Hamilton, ON L8K 1K2\nCanada",
+        "name": "QUEENSTON at NASH",
+        "locationConfidence": 0.26720572,
+        "calibratedProbability": 0.19884172
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 82,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 432317267,
+        "longitudeE7": -797808194
+      },
+      "endLocation": {
+        "latitudeE7": 434032192,
+        "longitudeE7": -798165563
+      },
+      "duration": {
+        "startTimestamp": "2020-02-03T23:28:46.104Z",
+        "endTimestamp": "2020-02-03T23:50:37.749Z"
+      },
+      "distance": 19631,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 92.66913533210754
+      }, {
+        "activityType": "STILL",
+        "probability": 6.1438605189323425
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.69755669683218
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 432316780,
+          "lngE7": -797808685
+        }, {
+          "latE7": 432851028,
+          "lngE7": -797893295
+        }, {
+          "latE7": 434031906,
+          "lngE7": -798163757
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJFTVtx-OYLIgRAGmqKgjxT_k"
+        }, {
+          "placeId": "ChIJo5rtNOKYLIgRygrdicNS3g4"
+        }, {
+          "placeId": "ChIJiZe9OuKYLIgRl8PJ94H9M1E"
+        }, {
+          "placeId": "ChIJVbQqzeaYLIgRqMsmkPHionY"
+        }, {
+          "placeId": "ChIJyXHQEOeYLIgRtt6IhzDno3U"
+        }, {
+          "placeId": "ChIJiemGg-eYLIgRdMBaNXwlH5Y"
+        }, {
+          "placeId": "ChIJC2KPOcOYLIgRnKZzwcxi_mM"
+        }, {
+          "placeId": "ChIJYV9pQcOYLIgR_iR5wAEiJB4"
+        }, {
+          "placeId": "ChIJ42UWOLaYLIgRhHRacgDR2DI"
+        }, {
+          "placeId": "ChIJXfZEX7aYLIgRhE9WtBj1vGU"
+        }, {
+          "placeId": "ChIJHZnZTbaYLIgR3ybN1YScVm0"
+        }, {
+          "placeId": "ChIJKz5BELaYLIgRiUNsF-0Z77M"
+        }, {
+          "placeId": "ChIJd-RYZsqYLIgREat70LupJs0"
+        }, {
+          "placeId": "ChIJ9zoL3sqYLIgRkelNPZ-IFNI"
+        }, {
+          "placeId": "ChIJD_uWrjGfLIgR64M3QAhj664"
+        }, {
+          "placeId": "ChIJjxNkSTCfLIgRARUnniM2HKc"
+        }, {
+          "placeId": "ChIJWW7CBiWfLIgRoiSrUF7q_Q8"
+        }, {
+          "placeId": "ChIJBTxqveGeLIgRuoHde5LEl5M"
+        }, {
+          "placeId": "ChIJDbEvCuOeLIgRuX4_4hD5FD4"
+        }, {
+          "placeId": "ChIJOSs2v_ueLIgROAeLpMFtQsQ"
+        }, {
+          "placeId": "ChIJ6SgRfvmeLIgRDu_wxgkvTgM"
+        }, {
+          "placeId": "ChIJRXpko_meLIgRt8ZwCmNUV0A"
+        }, {
+          "placeId": "ChIJCephgVmeLIgRnev3_JNDI4c"
+        }, {
+          "placeId": "ChIJRZW91FueLIgRphbm16faKGQ"
+        }, {
+          "placeId": "ChIJc4J5zlueLIgRzeAKzOP0yN4"
+        }, {
+          "placeId": "ChIJEyzGu1ueLIgRBh9SClvf6_Q"
+        }, {
+          "placeId": "ChIJTbMyclueLIgRJMy8MqV3R4Q"
+        }, {
+          "placeId": "ChIJmUhxVlueLIgRsKeNVO9TYEg"
+        }, {
+          "placeId": "ChIJQ5a2bkOeLIgR6AvxkU8BalY"
+        }, {
+          "placeId": "ChIJAZhmoEOeLIgRoDPC2UBKaBA"
+        }, {
+          "placeId": "ChIJ7chYoUOeLIgRMKrzhpg0TYk"
+        }, {
+          "placeId": "ChIJD3MAnmqeLIgRJrmApJqT-DA"
+        }, {
+          "placeId": "ChIJcb-puBSeLIgR1lDNMzu211k"
+        }, {
+          "placeId": "ChIJ9wbhYhOeLIgRdUM2Dy_DleQ"
+        }, {
+          "placeId": "ChIJM5tPbQ6eLIgR-V_0BqxwHbs"
+        }, {
+          "placeId": "ChIJqbIRoQieLIgRvaWhc2u0ZUg"
+        }, {
+          "placeId": "ChIJ32b3HwaeLIgRKTv9zfSOQ-M"
+        }, {
+          "placeId": "ChIJOZAEOAaeLIgRd_b-ablbdUU"
+        }, {
+          "placeId": "ChIJLQwAAAeeLIgRT0D7qnTkFTs"
+        }, {
+          "placeId": "ChIJaz3XMweeLIgRP48bb3-SyUQ"
+        }, {
+          "placeId": "ChIJOVH89ACeLIgRF2pkJvNY9ec"
+        }, {
+          "placeId": "ChIJx0o_HgCeLIgRKEWHrMKNms8"
+        }, {
+          "placeId": "ChIJz0Bj5f9hK4gRq0qlUO9PVwA"
+        }, {
+          "placeId": "ChIJzyId8_9hK4gRNFgO8XNmZ7g"
+        }, {
+          "placeId": "ChIJDxAgzgFiK4gRBGAXcRf-_-M"
+        }, {
+          "placeId": "ChIJ1VueNR1iK4gRVJkmCAn8L6Q"
+        }, {
+          "placeId": "ChIJ7a4XzidiK4gRI0ml9z0JJtY"
+        }, {
+          "placeId": "ChIJg3hnvddjK4gR2Ig_pbLCYU0"
+        }, {
+          "placeId": "ChIJ1ZkoGdhjK4gR4lD7B6nfwMs"
+        }, {
+          "placeId": "ChIJkyM3Z2JhK4gRMJW0eF0GNSw"
+        }, {
+          "placeId": "ChIJ5XDUR2JhK4gRVmJqtqsl47M"
+        }, {
+          "placeId": "ChIJ_UC412NhK4gRlM5daN7CHpU"
+        }, {
+          "placeId": "ChIJrcI9QWFhK4gRvoznWjUj8kE"
+        }, {
+          "placeId": "ChIJsXDALWFhK4gRpCts-7zssOo"
+        }, {
+          "placeId": "ChIJDcR2KmdhK4gRiSV55P3l3u4"
+        }, {
+          "placeId": "ChIJO8UFKWdhK4gRuKA8baXsa5I"
+        }, {
+          "placeId": "ChIJx2F3a2dhK4gRsOP1HABf5ZA"
+        }, {
+          "placeId": "ChIJI4rmfl1hK4gRahH0FVEeX4A"
+        }, {
+          "placeId": "ChIJByFRO11hK4gRvD_28powkEM"
+        }, {
+          "placeId": "ChIJ5wcqN0NhK4gRzEcddFOtItM"
+        }, {
+          "placeId": "ChIJM-ktnURhK4gRHdmeXxOvjIs"
+        }, {
+          "placeId": "ChIJBeVhiERhK4gRoYR8swG8DD4"
+        }, {
+          "placeId": "ChIJZXChYURhK4gRK0j8mFjySqA"
+        }, {
+          "placeId": "ChIJQW6RRURhK4gRDZks18HTOl8"
+        }, {
+          "placeId": "ChIJx8lONURhK4gRtw-t4Ebbu-I"
+        }, {
+          "placeId": "ChIJG8P6tEVhK4gRdqOKNrV9Xzk"
+        }, {
+          "placeId": "ChIJoSHMkUVhK4gRR6Vbr76Bdn0"
+        }, {
+          "placeId": "ChIJZ8bIZE9hK4gREaF5OzkYqas"
+        }, {
+          "placeId": "ChIJl2tcgk9hK4gRWwO221sE4ao"
+        }, {
+          "placeId": "ChIJy1VaZkVhK4gRQF4cjSbn4js"
+        }],
+        "distanceMeters": 23381.22625119409,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 434032377,
+          "longitudeE7": -798166185,
+          "accuracyMetres": 125
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2020-02-03T23:56:00.831Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434032326,
+        "longitudeE7": -798166351,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, ON L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -524241833
+        },
+        "locationConfidence": 90.67456,
+        "calibratedProbability": 64.83738
+      },
+      "duration": {
+        "startTimestamp": "2020-02-03T23:50:37.749Z",
+        "endTimestamp": "2020-02-03T23:56:00.831Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 434032192,
+      "centerLngE7": -798165563,
+      "visitConfidence": 81,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434032195,
+        "longitudeE7": -798165860,
+        "placeId": "ChIJqV-uY0VhK4gRJEvKbGfudco",
+        "address": "4643 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "4643 Ethel Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 8.004006,
+        "calibratedProbability": 5.723312
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Norton Leash Free Dog Park",
+        "locationConfidence": 0.5757575,
+        "calibratedProbability": 0.41169882
+      }, {
+        "latitudeE7": 434010570,
+        "longitudeE7": -798141840,
+        "placeId": "ChIJFbYXykVhK4gRrkh211fMTDc",
+        "address": "Burlington, ON L7M\nCanada",
+        "name": "Dundas St + Cornerstone Dr",
+        "locationConfidence": 0.301905,
+        "calibratedProbability": 0.21587896
+      }, {
+        "latitudeE7": 434036787,
+        "longitudeE7": -798164178,
+        "placeId": "ChIJ_1uyiE9hK4gRNuZkRVhd9uM",
+        "address": "4651 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "Fatimas\u0027 Enriched Home Daycare",
+        "locationConfidence": 0.22851588,
+        "calibratedProbability": 0.16340163
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 76,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 434032377,
+        "longitudeE7": -798166185
+      },
+      "endLocation": {
+        "latitudeE7": 434023802,
+        "longitudeE7": -798148429
+      },
+      "duration": {
+        "startTimestamp": "2020-02-03T23:56:00.831Z",
+        "endTimestamp": "2020-02-04T14:28:15.859Z"
+      },
+      "distance": 172,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 50.469887256622314
+      }, {
+        "activityType": "STILL",
+        "probability": 39.406681060791016
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.300571978092194
+      }]
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 432307802,
+        "longitudeE7": -797751938,
+        "placeId": "ChIJ06_LveWYLIgRPHm5Vx7w9iA",
+        "address": "631 Queenston Rd #202\nHamilton, ON L8K 6R5\nCanada",
+        "name": "Dr. Fortunato Caronzo",
+        "sourceInfo": {
+          "deviceTag": -524241833
+        },
+        "locationConfidence": 63.606377,
+        "calibratedProbability": 45.48446
+      },
+      "duration": {
+        "startTimestamp": "2020-02-04T14:44:48.934Z",
+        "endTimestamp": "2020-02-04T18:45:49.015Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 432311933,
+      "centerLngE7": -797751567,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 432307205,
+        "longitudeE7": -797753372,
+        "placeId": "ChIJgw3Yv-WYLIgRGjF0nIGPTuU",
+        "address": "631 Queenston Rd Unit 101\nHamilton, ON L8K 1J7\nCanada",
+        "name": "631 Queenston Rd Unit 101",
+        "locationConfidence": 31.096622,
+        "calibratedProbability": 22.236969
+      }, {
+        "latitudeE7": 432307226,
+        "longitudeE7": -797751732,
+        "placeId": "ChIJMxhIvOWYLIgR0e5H8lHnpNQ",
+        "address": "631 Queenston Rd\nHamilton, ON L8K 6R5\nCanada",
+        "name": "631 Queenston Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.7590847,
+        "calibratedProbability": 1.9730014
+      }, {
+        "latitudeE7": 432307226,
+        "longitudeE7": -797751732,
+        "placeId": "ChIJp7wun-WYLIgROxok3a4aYH0",
+        "address": "631 Queenston Rd #103\nHamilton, ON L8K 6R5\nCanada",
+        "name": "Queenston Walk In Clinic",
+        "locationConfidence": 1.1973947,
+        "calibratedProbability": 0.85624826
+      }, {
+        "latitudeE7": 432307802,
+        "longitudeE7": -797751938,
+        "placeId": "ChIJp7wun-WYLIgRy88x_2zeqD8",
+        "address": "631 Queenston Rd #102\nHamilton, ON L8K 6R5\nCanada",
+        "name": "Dynacare Laboratory and Health Services Centre",
+        "locationConfidence": 0.33866635,
+        "calibratedProbability": 0.24217784
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 51,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 432315719,
+        "longitudeE7": -797750287
+      },
+      "endLocation": {
+        "latitudeE7": 433437419,
+        "longitudeE7": -798177533
+      },
+      "duration": {
+        "startTimestamp": "2020-02-04T18:45:49.015Z",
+        "endTimestamp": "2020-02-04T20:39:21.364Z"
+      },
+      "distance": 20285,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 69.67813372612
+      }, {
+        "activityType": "STILL",
+        "probability": 27.462488412857056
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.8683139234781265
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 432330482,
+          "lngE7": -797872965,
+          "accuracyMeters": 19,
+          "timestamp": "2020-02-04T18:49:01.727Z"
+        }, {
+          "latE7": 432445517,
+          "lngE7": -798252499,
+          "accuracyMeters": 19,
+          "timestamp": "2020-02-04T18:55:07.277Z"
+        }, {
+          "latE7": 432502751,
+          "lngE7": -798497952,
+          "accuracyMeters": 11,
+          "timestamp": "2020-02-04T19:00:08.660Z"
+        }, {
+          "latE7": 432496838,
+          "lngE7": -798504003,
+          "accuracyMeters": 18,
+          "timestamp": "2020-02-04T19:05:12.532Z"
+        }, {
+          "latE7": 433437419,
+          "lngE7": -798177533,
+          "accuracyMeters": 9,
+          "timestamp": "2020-02-04T20:24:54.955Z"
+        }, {
+          "latE7": 433906800,
+          "lngE7": -798217876,
+          "accuracyMeters": 9,
+          "timestamp": "2020-02-04T20:34:30.468Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 27923.30886532344
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 432307802,
+        "longitudeE7": -797751938,
+        "placeId": "ChIJ06_LveWYLIgRPHm5Vx7w9iA",
+        "address": "631 Queenston Rd #202\nHamilton, ON L8K 6R5\nCanada",
+        "name": "Dr. Fortunato Caronzo",
+        "sourceInfo": {
+          "deviceTag": -524241833
+        },
+        "locationConfidence": 76.689285,
+        "calibratedProbability": 64.55679
+      },
+      "duration": {
+        "startTimestamp": "2020-02-05T14:45:56.168Z",
+        "endTimestamp": "2020-02-05T19:49:56.338Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 432309300,
+      "centerLngE7": -797752480,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 432307205,
+        "longitudeE7": -797753372,
+        "placeId": "ChIJgw3Yv-WYLIgRGjF0nIGPTuU",
+        "address": "631 Queenston Rd Unit 101\nHamilton, ON L8K 1J7\nCanada",
+        "name": "631 Queenston Rd Unit 101",
+        "locationConfidence": 19.314783,
+        "calibratedProbability": 16.259123
+      }, {
+        "latitudeE7": 432307226,
+        "longitudeE7": -797751732,
+        "placeId": "ChIJp7wun-WYLIgROxok3a4aYH0",
+        "address": "631 Queenston Rd #103\nHamilton, ON L8K 6R5\nCanada",
+        "name": "Queenston Walk In Clinic",
+        "locationConfidence": 1.3490956,
+        "calibratedProbability": 1.1356643
+      }, {
+        "latitudeE7": 432307226,
+        "longitudeE7": -797751732,
+        "placeId": "ChIJMxhIvOWYLIgR0e5H8lHnpNQ",
+        "address": "631 Queenston Rd\nHamilton, ON L8K 6R5\nCanada",
+        "name": "631 Queenston Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.2637588,
+        "calibratedProbability": 1.0638281
+      }, {
+        "latitudeE7": 432307230,
+        "longitudeE7": -797751730,
+        "placeId": "ChIJp7wun-WYLIgRCmZJpcMT_YA",
+        "address": "631 Queenston Rd #105\nHamilton, ON L8K 6R5\nCanada",
+        "name": "GNMI - Greater Niagara Medical Imaging",
+        "locationConfidence": 0.29518977,
+        "calibratedProbability": 0.24848981
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 62,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 432314569,
+        "longitudeE7": -797750548
+      },
+      "endLocation": {
+        "latitudeE7": 432307205,
+        "longitudeE7": -799335685
+      },
+      "duration": {
+        "startTimestamp": "2020-02-05T19:49:56.338Z",
+        "endTimestamp": "2020-02-05T20:07:53.438Z"
+      },
+      "distance": 12915,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 97.06074595451355
+      }, {
+        "activityType": "STILL",
+        "probability": 1.956968754529953
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.5494452081620693
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 432319412,
+          "lngE7": -797750396
+        }, {
+          "latE7": 432041206,
+          "lngE7": -798105697
+        }, {
+          "latE7": 432307510,
+          "lngE7": -799335098
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJbUC94OWYLIgRoNSlDJq89HM"
+        }, {
+          "placeId": "ChIJAa_dcOaYLIgRG0fTwL-pHqU"
+        }, {
+          "placeId": "ChIJpYEFiuaYLIgRVRvwAGnOxFE"
+        }, {
+          "placeId": "ChIJ2-EA7eaYLIgRoN0HVtcNcAQ"
+        }, {
+          "placeId": "ChIJNwDrU-GYLIgRD1LJYStctNE"
+        }, {
+          "placeId": "ChIJo5rtNOKYLIgRygrdicNS3g4"
+        }, {
+          "placeId": "ChIJ2e8nPOKYLIgRXZaYrtX7_gY"
+        }, {
+          "placeId": "ChIJl6QdFOKYLIgRH8WM4ifZfmg"
+        }, {
+          "placeId": "ChIJs1PX9x2ZLIgR4-KL8tWCFdY"
+        }, {
+          "placeId": "ChIJy8N--x2ZLIgRbDJeAQSyXxo"
+        }, {
+          "placeId": "ChIJn723AOKYLIgRFDgVKB3hEYY"
+        }, {
+          "placeId": "ChIJtUVK9B2ZLIgRnucI-FVeA0Y"
+        }, {
+          "placeId": "ChIJHcLBCx2ZLIgR-6w0w8Lhocw"
+        }, {
+          "placeId": "ChIJI3Uk3ZWZLIgRp-RIzroDr4I"
+        }, {
+          "placeId": "ChIJx2ksxpWZLIgRIRDwrPyFkbA"
+        }, {
+          "placeId": "ChIJHdcHtJWZLIgRkQTbAs4mLwo"
+        }, {
+          "placeId": "ChIJyXVg-ZSZLIgRtXJnWuAIaWM"
+        }, {
+          "placeId": "ChIJm1dLJOyZLIgRC9WCoqbhL-g"
+        }, {
+          "placeId": "ChIJuy6Kfu6ZLIgRn3E3fC2hKks"
+        }, {
+          "placeId": "ChIJ0x8_wvGZLIgRwVQ2hH_R5UU"
+        }, {
+          "placeId": "ChIJ2xvfvPGZLIgRb2a8lGaBgwQ"
+        }, {
+          "placeId": "ChIJHfSUpPaZLIgR65i81UMy6HQ"
+        }, {
+          "placeId": "ChIJ2SOHyfWZLIgRkMvNiFxhKOE"
+        }, {
+          "placeId": "ChIJozdhovWZLIgRys-6UwcsACE"
+        }, {
+          "placeId": "ChIJueRqzzyaLIgRgofr1lGj7s4"
+        }, {
+          "placeId": "ChIJ7T-Dzz6aLIgRWuUmUFD6owg"
+        }, {
+          "placeId": "ChIJsQJoU0eaLIgRDIf9iaMw6fs"
+        }, {
+          "placeId": "ChIJ-XEwKUeaLIgRFEcFKgRBLmQ"
+        }, {
+          "placeId": "ChIJtXKe9USaLIgR9woLJpDdPmE"
+        }, {
+          "placeId": "ChIJKcYEAVuaLIgRxN3XAgC3b3Y"
+        }, {
+          "placeId": "ChIJAQO6SlqaLIgRMMlOmtVpDf8"
+        }, {
+          "placeId": "ChIJ9ceTslmaLIgRR_0vP2ivl88"
+        }, {
+          "placeId": "ChIJUQNtrPCaLIgRUT0OLBj5DBY"
+        }, {
+          "placeId": "ChIJD5QCaeWaLIgRXwgCJB3V2MY"
+        }, {
+          "placeId": "ChIJTwpl3-WaLIgRhZ_eyytCjI4"
+        }, {
+          "placeId": "ChIJZaAVU9yaLIgRPwF0miF_IeQ"
+        }, {
+          "placeId": "ChIJNdZGOdqaLIgRIDq-_VhTcYI"
+        }, {
+          "placeId": "ChIJFRX9DtqaLIgR1IDgzHhuFXU"
+        }, {
+          "placeId": "ChIJy-YZ1NCaLIgRGyTLZYgQXE8"
+        }, {
+          "placeId": "ChIJY8w9OCuFLIgRo7RQp-FBXHM"
+        }, {
+          "placeId": "ChIJVXJHCieFLIgRniBdNNyvCEE"
+        }],
+        "distanceMeters": 16655.75156766618,
+        "travelMode": "DRIVE",
+        "confidence": 0.9105967122411814
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 432312257,
+          "longitudeE7": -799338141,
+          "accuracyMetres": 125
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2020-02-05T20:10:43.848Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 432320973,
+        "longitudeE7": -799345939,
+        "placeId": "ChIJjbsjQyeFLIgR2UddQ93EpRk",
+        "address": "1248 Mohawk Rd\nAncaster, ON L9K 1P5\nCanada",
+        "name": "Meadowlands Retirement Community",
+        "sourceInfo": {
+          "deviceTag": -524241833
+        },
+        "locationConfidence": 94.43289,
+        "calibratedProbability": 85.479416
+      },
+      "duration": {
+        "startTimestamp": "2020-02-05T20:07:53.438Z",
+        "endTimestamp": "2020-02-05T21:59:22.168Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 432312967,
+      "centerLngE7": -799335900,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 432323887,
+        "longitudeE7": -799337008,
+        "placeId": "ChIJSVeNg9iELIgRYic-Ib0bu08",
+        "address": "1248 Mohawk Rd\nHamilton, ON L9K 1P5\nCanada",
+        "name": "1248 Mohawk Rd",
+        "locationConfidence": 3.108645,
+        "calibratedProbability": 2.8139048
+      }, {
+        "latitudeE7": 432334308,
+        "longitudeE7": -799353602,
+        "placeId": "ChIJAXVvmtiELIgRZkVkqG20Pjc",
+        "address": "1217 Old Mohawk Rd\nHamilton, ON L9K 1P6\nCanada",
+        "name": "Chartwell Willowgrove Long Term Care Residence",
+        "locationConfidence": 0.6104865,
+        "calibratedProbability": 0.5526044
+      }, {
+        "latitudeE7": 432322120,
+        "longitudeE7": -799344480,
+        "placeId": "ChIJjTYvntiELIgRpVgQ9GRO4yg",
+        "address": "Hamilton, ON L9K\nCanada",
+        "name": "MOHAWK opposite OLD MOHAWK",
+        "locationConfidence": 0.47594526,
+        "calibratedProbability": 0.43081942
+      }, {
+        "latitudeE7": 432328790,
+        "longitudeE7": -799340750,
+        "placeId": "ChIJXSBPkNiELIgRi_4dyZC6bl0",
+        "address": "Hamilton, ON L9K 1P6\nCanada",
+        "name": "MOHAWK at OLD MOHAWK",
+        "locationConfidence": 0.3436906,
+        "calibratedProbability": 0.31110424
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 80,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 432319563,
+        "longitudeE7": -799334088
+      },
+      "endLocation": {
+        "latitudeE7": 434031216,
+        "longitudeE7": -798163739
+      },
+      "duration": {
+        "startTimestamp": "2020-02-05T21:59:22.168Z",
+        "endTimestamp": "2020-02-05T22:28:37.135Z"
+      },
+      "distance": 23102,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 97.62760400772095
+      }, {
+        "activityType": "STILL",
+        "probability": 1.4359060674905777
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.6397105753421783
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 432321281,
+          "lngE7": -799335861
+        }, {
+          "latE7": 432911605,
+          "lngE7": -798948211
+        }, {
+          "latE7": 434031219,
+          "lngE7": -798163909
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ6U9cg9iELIgRWPljGwxwMMU"
+        }, {
+          "placeId": "ChIJqdH5mtiELIgRQr0qWme1KRk"
+        }, {
+          "placeId": "ChIJIb6yn9iELIgR_1xX8G0a-dA"
+        }, {
+          "placeId": "ChIJLVAuvyCFLIgRi_yYquMCeyQ"
+        }, {
+          "placeId": "ChIJeaSoJyCFLIgRhAjBW_eQY9c"
+        }, {
+          "placeId": "ChIJpZu-sx-FLIgRWb2z9RW3tGM"
+        }, {
+          "placeId": "ChIJBweyQR6FLIgRu550SMm5nsE"
+        }, {
+          "placeId": "ChIJdYht1U6bLIgRCtuBty_OkHI"
+        }, {
+          "placeId": "ChIJ4cHtlkWbLIgRcHD3qNKMnHg"
+        }, {
+          "placeId": "ChIJ9eFGvUWbLIgRePr8Ynolk6g"
+        }, {
+          "placeId": "ChIJX7V1qESbLIgR0Qga-KCuH-U"
+        }, {
+          "placeId": "ChIJd0hmL12bLIgRm2hPdmRsZT8"
+        }, {
+          "placeId": "ChIJ0aUMM2GbLIgROYNtJqKpm4k"
+        }, {
+          "placeId": "ChIJCZpFZp6cLIgRMLLSCSHGXzc"
+        }, {
+          "placeId": "ChIJn9XhxZacLIgRd6IK-TJadc4"
+        }, {
+          "placeId": "ChIJk9uTQZWcLIgRADHEQuLc5gc"
+        }, {
+          "placeId": "ChIJef8gVZWcLIgRtVJhGBlGw9k"
+        }, {
+          "placeId": "ChIJGVOciOmcLIgRYzp4o-T_0co"
+        }, {
+          "placeId": "ChIJqxtR-_qcLIgRpzyw4nYqBX4"
+        }, {
+          "placeId": "ChIJ4351db-dLIgRpjqHyeXsHQc"
+        }, {
+          "placeId": "ChIJ-TIkhf-dLIgRiVfn5kFXqxw"
+        }, {
+          "placeId": "ChIJ62AGdABiK4gRqDuf7Q4LYTU"
+        }, {
+          "placeId": "ChIJS8SZQABiK4gRZogmY6uGtg4"
+        }, {
+          "placeId": "ChIJTSRSygFiK4gRPBdHfXGf5J8"
+        }, {
+          "placeId": "ChIJ1VueNR1iK4gRVJkmCAn8L6Q"
+        }, {
+          "placeId": "ChIJ7a4XzidiK4gRI0ml9z0JJtY"
+        }, {
+          "placeId": "ChIJg3hnvddjK4gR2Ig_pbLCYU0"
+        }, {
+          "placeId": "ChIJ1ZkoGdhjK4gR4lD7B6nfwMs"
+        }, {
+          "placeId": "ChIJkyM3Z2JhK4gRMJW0eF0GNSw"
+        }, {
+          "placeId": "ChIJ5XDUR2JhK4gRVmJqtqsl47M"
+        }, {
+          "placeId": "ChIJ_UC412NhK4gRlM5daN7CHpU"
+        }, {
+          "placeId": "ChIJrcI9QWFhK4gRvoznWjUj8kE"
+        }, {
+          "placeId": "ChIJsXDALWFhK4gRpCts-7zssOo"
+        }, {
+          "placeId": "ChIJDcR2KmdhK4gRiSV55P3l3u4"
+        }, {
+          "placeId": "ChIJO8UFKWdhK4gRuKA8baXsa5I"
+        }, {
+          "placeId": "ChIJx2F3a2dhK4gRsOP1HABf5ZA"
+        }, {
+          "placeId": "ChIJI4rmfl1hK4gRahH0FVEeX4A"
+        }, {
+          "placeId": "ChIJByFRO11hK4gRvD_28powkEM"
+        }, {
+          "placeId": "ChIJ5wcqN0NhK4gRzEcddFOtItM"
+        }, {
+          "placeId": "ChIJM-ktnURhK4gRHdmeXxOvjIs"
+        }, {
+          "placeId": "ChIJBeVhiERhK4gRoYR8swG8DD4"
+        }, {
+          "placeId": "ChIJZXChYURhK4gRK0j8mFjySqA"
+        }, {
+          "placeId": "ChIJQW6RRURhK4gRDZks18HTOl8"
+        }, {
+          "placeId": "ChIJx8lONURhK4gRtw-t4Ebbu-I"
+        }, {
+          "placeId": "ChIJG8P6tEVhK4gRdqOKNrV9Xzk"
+        }, {
+          "placeId": "ChIJoSHMkUVhK4gRR6Vbr76Bdn0"
+        }, {
+          "placeId": "ChIJZ8bIZE9hK4gREaF5OzkYqas"
+        }, {
+          "placeId": "ChIJl2tcgk9hK4gRWwO221sE4ao"
+        }, {
+          "placeId": "ChIJy1VaZkVhK4gRQF4cjSbn4js"
+        }],
+        "distanceMeters": 26443.10382599361,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 434031179,
+          "longitudeE7": -798168588,
+          "accuracyMetres": 83
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2020-02-05T22:35:03.615Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 434032326,
+        "longitudeE7": -798166351,
+        "placeId": "ChIJy1VaZkVhK4gRCGpIx9xZ62M",
+        "address": "4643 Ethel Rd, Burlington, ON L7M 0E4, Canada",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -524241833
+        },
+        "locationConfidence": 94.51299,
+        "calibratedProbability": 78.55456
+      },
+      "duration": {
+        "startTimestamp": "2020-02-05T22:28:37.135Z",
+        "endTimestamp": "2020-02-07T14:37:29.579Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 434032475,
+      "centerLngE7": -798162725,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 434032195,
+        "longitudeE7": -798165860,
+        "placeId": "ChIJqV-uY0VhK4gRJEvKbGfudco",
+        "address": "4643 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "4643 Ethel Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 4.4650373,
+        "calibratedProbability": 3.7111197
+      }, {
+        "latitudeE7": 434010570,
+        "longitudeE7": -798141840,
+        "placeId": "ChIJFbYXykVhK4gRrkh211fMTDc",
+        "address": "Burlington, ON L7M\nCanada",
+        "name": "Dundas St + Cornerstone Dr",
+        "locationConfidence": 0.28372127,
+        "calibratedProbability": 0.23581518
+      }, {
+        "latitudeE7": 434009839,
+        "longitudeE7": -798151625,
+        "placeId": "ChIJYVThrEVhK4gRwgirtKLlLj4",
+        "address": "4613-\n4621 Cornerstone Dr\nBurlington, ON L7R 3X4\nCanada",
+        "name": "Norton Leash Free Dog Park",
+        "locationConfidence": 0.26682788,
+        "calibratedProbability": 0.22177424
+      }, {
+        "latitudeE7": 434036787,
+        "longitudeE7": -798164178,
+        "placeId": "ChIJ_1uyiE9hK4gRNuZkRVhd9uM",
+        "address": "4651 Ethel Rd\nBurlington, ON L7M 0G7\nCanada",
+        "name": "Fatimas\u0027 Enriched Home Daycare",
+        "locationConfidence": 0.17526382,
+        "calibratedProbability": 0.14567068
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 434030913,
+        "longitudeE7": -798147075
+      },
+      "endLocation": {
+        "latitudeE7": 432303864,
+        "longitudeE7": -797755433
+      },
+      "duration": {
+        "startTimestamp": "2020-02-07T14:37:29.579Z",
+        "endTimestamp": "2020-02-07T14:53:20.210Z"
+      },
+      "distance": 19464,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 93.39033365249634
+      }, {
+        "activityType": "STILL",
+        "probability": 4.445705562829971
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.2122890911996365
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 432813938,
+          "lngE7": -797878782,
+          "accuracyMeters": 9,
+          "timestamp": "2020-02-07T14:47:03.884Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 19464.06151625607
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 432308038,
+        "longitudeE7": -797751636,
+        "placeId": "ChIJgw3Yv-WYLIgRGjF0nIGPTuU",
+        "address": "631 Queenston Rd Unit 101\nHamilton, ON L8K 1J7\nCanada",
+        "name": "631 Queenston Rd Unit 101",
+        "sourceInfo": {
+          "deviceTag": -524241833
+        },
+        "locationConfidence": 56.56771,
+        "calibratedProbability": 30.202356
+      },
+      "duration": {
+        "startTimestamp": "2020-02-07T14:53:20.210Z",
+        "endTimestamp": "2020-02-07T23:03:09.252Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 432303864,
+      "centerLngE7": -797755433,
+      "visitConfidence": 79,
+      "otherCandidateLocations": [{
+        "latitudeE7": 432307802,
+        "longitudeE7": -797751938,
+        "placeId": "ChIJ06_LveWYLIgRPHm5Vx7w9iA",
+        "address": "631 Queenston Rd #202\nHamilton, ON L8K 6R5\nCanada",
+        "name": "Dr. Fortunato Caronzo",
+        "locationConfidence": 35.51609,
+        "calibratedProbability": 18.962578
+      }, {
+        "latitudeE7": 432307226,
+        "longitudeE7": -797751732,
+        "placeId": "ChIJMxhIvOWYLIgR0e5H8lHnpNQ",
+        "address": "631 Queenston Rd\nHamilton, ON L8K 6R5\nCanada",
+        "name": "631 Queenston Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 4.9269304,
+        "calibratedProbability": 2.6305628
+      }, {
+        "latitudeE7": 432307226,
+        "longitudeE7": -797751732,
+        "placeId": "ChIJp7wun-WYLIgROxok3a4aYH0",
+        "address": "631 Queenston Rd #103\nHamilton, ON L8K 6R5\nCanada",
+        "name": "Queenston Walk In Clinic",
+        "locationConfidence": 1.2333566,
+        "calibratedProbability": 0.65850776
+      }, {
+        "latitudeE7": 432299920,
+        "longitudeE7": -797742310,
+        "placeId": "ChIJGy_hguWYLIgR0OuVUhP5fMs",
+        "address": "Hamilton, ON L8K 1K2\nCanada",
+        "name": "QUEENSTON at NASH",
+        "locationConfidence": 0.44287816,
+        "calibratedProbability": 0.23645936,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 45,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 432312332,
+        "longitudeE7": -797784718
+      },
+      "endLocation": {
+        "latitudeE7": 433654607,
+        "longitudeE7": -797867875
+      },
+      "duration": {
+        "startTimestamp": "2020-02-07T23:03:09.252Z",
+        "endTimestamp": "2020-02-07T23:27:21.020Z"
+      },
+      "distance": 15780,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.72647595405579
+      }, {
+        "activityType": "STILL",
+        "probability": 6.679130345582962
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.9342764504253864
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 434032378,
+          "lngE7": -798165765,
+          "accuracyMeters": 34,
+          "timestamp": "2020-02-07T23:25:09.093Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 24214.449449669482
+      }
+    }
+  }]
+}

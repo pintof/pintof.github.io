@@ -1,0 +1,731 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436876278,
+        "longitudeE7": -794002052
+      },
+      "endLocation": {
+        "latitudeE7": 436503895,
+        "longitudeE7": -794053787
+      },
+      "duration": {
+        "startTimestamp": "2017-11-01T03:00:21Z",
+        "endTimestamp": "2017-11-01T03:29:02.481Z"
+      },
+      "distance": 5347,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 57.87181543354103
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 19.814843467937308
+      }, {
+        "activityType": "WALKING",
+        "probability": 8.860023319265567
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436876449,
+          "lngE7": -794001388
+        }, {
+          "latE7": 436504135,
+          "lngE7": -794052581
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 436867421,
+          "longitudeE7": -793956513,
+          "accuracyMetres": 699
+        },
+        "method": "PERSONAL_VEHICLE_CONFIDENCE",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-11-01T03:28:53.459Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436503895,
+        "longitudeE7": -794053787
+      },
+      "endLocation": {
+        "latitudeE7": 436877674,
+        "longitudeE7": -793997288
+      },
+      "duration": {
+        "startTimestamp": "2017-11-01T03:29:02.481Z",
+        "endTimestamp": "2017-11-01T07:13:29.618Z"
+      },
+      "distance": 7508,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 48.5821046099083
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 24.35371776602637
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 11.116283473982486
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436504135,
+          "lngE7": -794052581
+        }, {
+          "latE7": 436612930,
+          "lngE7": -794287643
+        }, {
+          "latE7": 436876754,
+          "lngE7": -794001541
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 436612513,
+          "lngE7": -794287472,
+          "accuracyMeters": 13,
+          "timestamp": "2017-11-01T06:33:17Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436877674,
+        "longitudeE7": -793997288,
+        "placeId": "ChIJLXUq3FwzK4gRGZ1DadrGzvw",
+        "address": "23 Oriole Rd, Toronto, ON M4V 2E6, Canada",
+        "name": "23 Oriole Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": 1560881842
+        },
+        "locationConfidence": 92.998474
+      },
+      "duration": {
+        "startTimestamp": "2017-11-01T07:13:29.618Z",
+        "endTimestamp": "2017-11-01T13:58:26.944Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436875431,
+      "centerLngE7": -794005054,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436878680,
+        "longitudeE7": -793999679,
+        "placeId": "ChIJDYpJ31wzK4gRnnR-ddsNVNM",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 5.908192
+      }, {
+        "latitudeE7": 436867462,
+        "longitudeE7": -793994902,
+        "placeId": "ChIJPYRR-lwzK4gRyCBtfBZ2g0k",
+        "address": "111 St Clair Ave W\nToronto, ON M4V 1N5\nCanada",
+        "name": "The Market by Longo\u0027s at Imperial Plaza",
+        "locationConfidence": 0.22492118
+      }, {
+        "latitudeE7": 436893211,
+        "longitudeE7": -794012848,
+        "placeId": "ChIJYempyUIzK4gRiLIIYKb224k",
+        "address": "58 Oriole Rd\nToronto, ON M4V 2G1\nCanada",
+        "name": "58 Oriole Rd",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.14400558
+      }, {
+        "latitudeE7": 436874041,
+        "longitudeE7": -794012130,
+        "placeId": "ChIJ4SsPE10zK4gRDZbsveNamcs",
+        "address": "555 Avenue Rd\nToronto, ON M4V 2J7\nCanada",
+        "name": "Consulate General of the Republic of Korea in Toronto",
+        "locationConfidence": 0.079951905
+      }, {
+        "latitudeE7": 436878680,
+        "longitudeE7": -793999679,
+        "placeId": "ChIJT8HUIF0zK4gRej7Hsf8Szqs",
+        "address": "27 Oriole Rd\nToronto, ON M4V 2E6\nCanada",
+        "name": "Agensky And Co",
+        "locationConfidence": 0.06564066
+      }, {
+        "latitudeE7": 436867696,
+        "longitudeE7": -793982454,
+        "placeId": "ChIJFYx68FwzK4gRaWlYG5BVwDE",
+        "address": "95 St Clair Ave W\nToronto, ON M4V 1N7\nCanada",
+        "name": "Starbucks",
+        "locationConfidence": 0.062073227
+      }, {
+        "latitudeE7": 436874935,
+        "longitudeE7": -793979140,
+        "placeId": "ChIJnwt1mFwzK4gRrh-5PKgCKuA",
+        "address": "78 St Clair Ave W\nToronto, ON M4V 1M7\nCanada",
+        "name": "Circle K",
+        "locationConfidence": 0.03183162
+      }, {
+        "latitudeE7": 436872771,
+        "longitudeE7": -793967448,
+        "placeId": "ChIJZ-h8Z1szK4gRYGxSZF5YC8U",
+        "address": "55 St Clair Ave W\nToronto, ON M4V 1N5\nCanada",
+        "name": "Tim Hortons",
+        "locationConfidence": 0.02482872
+      }, {
+        "latitudeE7": 436866340,
+        "longitudeE7": -794014820,
+        "placeId": "ChIJy5c2dV0zK4gRvKIp6TCIJV4",
+        "name": "Avenue Road",
+        "locationConfidence": 0.018482134
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 82,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436877674,
+        "longitudeE7": -793997288
+      },
+      "endLocation": {
+        "latitudeE7": 436133111,
+        "longitudeE7": -794921159
+      },
+      "duration": {
+        "startTimestamp": "2017-11-01T13:58:26.944Z",
+        "endTimestamp": "2017-11-01T14:28:56.953Z"
+      },
+      "distance": 9283,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.2371474350414
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.5200440272389327
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.14011566212334248
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436876754,
+          "lngE7": -794001541
+        }, {
+          "latE7": 436132354,
+          "lngE7": -794920883
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 436172950,
+          "longitudeE7": -794875795,
+          "accuracyMetres": 42
+        },
+        "method": "PERSONAL_VEHICLE_CONFIDENCE",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-11-01T14:25:52.406Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436133111,
+        "longitudeE7": -794921159,
+        "placeId": "ChIJe4LgeypIK4gRf6YSm9nX2KE",
+        "address": "58 Mimico Avenue, Etobicoke, Ontario M8V 1R3, Canada",
+        "name": "Rune Entertainment",
+        "sourceInfo": {
+          "deviceTag": 1560881842
+        },
+        "locationConfidence": 90.50742
+      },
+      "duration": {
+        "startTimestamp": "2017-11-01T14:28:56.953Z",
+        "endTimestamp": "2017-11-01T17:01:17.087Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 436132817,
+      "centerLngE7": -794921660,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436133270,
+        "longitudeE7": -794921494,
+        "placeId": "ChIJIyxxkh82K4gRwqtRRCnzfhI",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 8.360025
+      }, {
+        "latitudeE7": 436132564,
+        "longitudeE7": -794925409,
+        "placeId": "ChIJychiix82K4gRIE7hIvb-luo",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.38683352
+      }, {
+        "latitudeE7": 436130870,
+        "longitudeE7": -794928870,
+        "placeId": "ChIJgVTfHyA2K4gRU_TCcYuQgFE",
+        "address": "Toronto, ON M8V 1R3\nCanada",
+        "name": "Mimico Ave at Wheatfield Rd",
+        "locationConfidence": 0.17205204
+      }, {
+        "latitudeE7": 436130950,
+        "longitudeE7": -794925164,
+        "placeId": "ChIJ_2tZ8x82K4gRT9RUtZct06c",
+        "address": "63 Mimico Ave\nEtobicoke, ON M8V 1R2\nCanada",
+        "name": "Hogle Funeral Home",
+        "locationConfidence": 0.11372488
+      }, {
+        "latitudeE7": 436135046,
+        "longitudeE7": -794914443,
+        "placeId": "ChIJp93cvR82K4gRDy-VDQfkxy8",
+        "address": "46 Mimico Ave\nEtobicoke, ON M8V 1P9\nCanada",
+        "name": "Elder Tree Montessori",
+        "locationConfidence": 0.041273925
+      }, {
+        "latitudeE7": 436131819,
+        "longitudeE7": -794899584,
+        "placeId": "ChIJlYOPaK43K4gRGcApaa15P6U",
+        "address": "2472 Lake Shore Blvd W\nEtobicoke, ON M8V 1C9\nCanada",
+        "name": "TD Canada Trust",
+        "locationConfidence": 0.03715488
+      }, {
+        "latitudeE7": 436133291,
+        "longitudeE7": -794886100,
+        "placeId": "ChIJEaW5Wh42K4gRMyFHNjr8jxw",
+        "address": "2451 Lake Shore Blvd W\nEtobicoke, ON M8V 1C5\nCanada",
+        "name": "Nimman Thai Cuisine",
+        "locationConfidence": 0.032651782
+      }, {
+        "latitudeE7": 436140607,
+        "longitudeE7": -794889170,
+        "placeId": "ChIJOZw2YB42K4gRT0ZZeO3x5Ac",
+        "address": "2413 Lake Shore Blvd W\nEtobicoke, ON M8V 1C5\nCanada",
+        "name": "Birds \u0026 Beans Coffee",
+        "locationConfidence": 0.030569728
+      }, {
+        "latitudeE7": 436139033,
+        "longitudeE7": -794894928,
+        "placeId": "ChIJmTEeWh42K4gRmBcQy-wTtz0",
+        "name": "BMO Bank of Montreal",
+        "locationConfidence": 0.02384546
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 78,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436133111,
+        "longitudeE7": -794921159
+      },
+      "endLocation": {
+        "latitudeE7": 436132666,
+        "longitudeE7": -794921052
+      },
+      "duration": {
+        "startTimestamp": "2017-11-01T17:01:17.087Z",
+        "endTimestamp": "2017-11-01T17:18:22.070Z"
+      },
+      "distance": 7942,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 98.64516736630536
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.2315267851865326
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.06023505302081964
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 436154120,
+          "longitudeE7": -795005818,
+          "accuracyMetres": 117
+        },
+        "method": "PERSONAL_VEHICLE_CONFIDENCE",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-11-01T17:16:07.071Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436133111,
+        "longitudeE7": -794921159,
+        "placeId": "ChIJe4LgeypIK4gRf6YSm9nX2KE",
+        "address": "58 Mimico Avenue, Etobicoke, Ontario M8V 1R3, Canada",
+        "name": "Rune Entertainment",
+        "sourceInfo": {
+          "deviceTag": 1560881842
+        },
+        "locationConfidence": 91.121475,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-11-01T17:18:22.070Z",
+        "endTimestamp": "2017-11-01T23:56:00.924Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 436133026,
+      "centerLngE7": -794921110,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436133270,
+        "longitudeE7": -794921494,
+        "placeId": "ChIJIyxxkh82K4gRwqtRRCnzfhI",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 7.338039
+      }, {
+        "latitudeE7": 436132564,
+        "longitudeE7": -794925409,
+        "placeId": "ChIJychiix82K4gRIE7hIvb-luo",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.8636938
+      }, {
+        "latitudeE7": 436130870,
+        "longitudeE7": -794928870,
+        "placeId": "ChIJgVTfHyA2K4gRU_TCcYuQgFE",
+        "address": "Toronto, ON M8V 1R3\nCanada",
+        "name": "Mimico Ave at Wheatfield Rd",
+        "locationConfidence": 0.17605233
+      }, {
+        "latitudeE7": 436130950,
+        "longitudeE7": -794925164,
+        "placeId": "ChIJ_2tZ8x82K4gRT9RUtZct06c",
+        "address": "63 Mimico Ave\nEtobicoke, ON M8V 1R2\nCanada",
+        "name": "Hogle Funeral Home",
+        "locationConfidence": 0.11514179
+      }, {
+        "latitudeE7": 436135046,
+        "longitudeE7": -794914443,
+        "placeId": "ChIJp93cvR82K4gRDy-VDQfkxy8",
+        "address": "46 Mimico Ave\nEtobicoke, ON M8V 1P9\nCanada",
+        "name": "Elder Tree Montessori",
+        "locationConfidence": 0.03387034
+      }, {
+        "latitudeE7": 436133291,
+        "longitudeE7": -794886100,
+        "placeId": "ChIJEaW5Wh42K4gRMyFHNjr8jxw",
+        "address": "2451 Lake Shore Blvd W\nEtobicoke, ON M8V 1C5\nCanada",
+        "name": "Nimman Thai Cuisine",
+        "locationConfidence": 0.028241571
+      }, {
+        "latitudeE7": 436140607,
+        "longitudeE7": -794889170,
+        "placeId": "ChIJOZw2YB42K4gRT0ZZeO3x5Ac",
+        "address": "2413 Lake Shore Blvd W\nEtobicoke, ON M8V 1C5\nCanada",
+        "name": "Birds \u0026 Beans Coffee",
+        "locationConfidence": 0.026765103
+      }, {
+        "latitudeE7": 436133734,
+        "longitudeE7": -794892447,
+        "placeId": "ChIJufxORR42K4gRAmgjdgItLp8",
+        "address": "2481 Lake Shore Blvd W\nEtobicoke, ON M8V 1C5\nCanada",
+        "name": "Maurya East Indian Roti",
+        "locationConfidence": 0.017849158
+      }, {
+        "latitudeE7": 436129569,
+        "longitudeE7": -794924903,
+        "placeId": "ChIJ_2tZ8x82K4gRYzbJrUmoREs",
+        "name": "Mimico Chapel",
+        "locationConfidence": 0.015391232
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 79,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436133111,
+        "longitudeE7": -794921159
+      },
+      "endLocation": {
+        "latitudeE7": 436537661,
+        "longitudeE7": -793368302
+      },
+      "duration": {
+        "startTimestamp": "2017-11-01T23:56:00.924Z",
+        "endTimestamp": "2017-11-02T00:11:57.048Z"
+      },
+      "distance": 9968,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.83656232654597
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.1223266177650705
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.023499143645126386
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436132354,
+          "lngE7": -794920883
+        }, {
+          "latE7": 436202011,
+          "lngE7": -794841537
+        }, {
+          "latE7": 436538925,
+          "lngE7": -793365325
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 436397107,
+          "longitudeE7": -793847564,
+          "accuracyMetres": 112
+        },
+        "method": "PERSONAL_VEHICLE_CONFIDENCE",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-11-02T00:07:30.053Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436537661,
+        "longitudeE7": -793368302,
+        "placeId": "ChIJq6raxwrL1IkRr36ifwolmdk",
+        "address": "6 Carlaw Avenue, Toronto, Ontario M4M 2R5, Canada",
+        "name": "The Circus Fix",
+        "sourceInfo": {
+          "deviceTag": 1560881842
+        },
+        "locationConfidence": 72.98951
+      },
+      "duration": {
+        "startTimestamp": "2017-11-02T00:11:57.048Z",
+        "endTimestamp": "2017-11-02T01:50:09.068Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 436539433,
+      "centerLngE7": -793365700,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436537661,
+        "longitudeE7": -793368302,
+        "placeId": "ChIJq6raxwrL1IkRjXCHiGYUjcY",
+        "address": "6 Carlaw Ave Unit 104\nToronto, ON M4M 2R5\nCanada",
+        "name": "Studio Flux Inc.",
+        "locationConfidence": 26.01799
+      }, {
+        "latitudeE7": 436537660,
+        "longitudeE7": -793368300,
+        "placeId": "ChIJu0_TSXHL1IkRYdhUt40PLK4",
+        "address": "2243 Queen St E\nToronto, ON M4E 1G1\nCanada",
+        "name": "YOGAthletix",
+        "locationConfidence": 0.3547647
+      }, {
+        "latitudeE7": 436540145,
+        "longitudeE7": -793369107,
+        "placeId": "ChIJuRUyxwY1K4gRlwMKZSCAYU4",
+        "address": "6 Carlaw Ave Unit 104\nToronto, ON M4M 2R5\nCanada",
+        "name": "Hercinia Arts Studio",
+        "locationConfidence": 0.21530606
+      }, {
+        "latitudeE7": 436545315,
+        "longitudeE7": -793376591,
+        "placeId": "ChIJJ05BKXXL1IkRODwyWHKB7uQ",
+        "address": "829 Lake Shore Blvd E\nToronto, ON M4M 1B2\nCanada",
+        "name": "Esso",
+        "locationConfidence": 0.09430999
+      }, {
+        "latitudeE7": 436537661,
+        "longitudeE7": -793368302,
+        "placeId": "ChIJswalzwrL1IkRHyIXm5PGSog",
+        "locationConfidence": 0.072280176
+      }, {
+        "latitudeE7": 436533456,
+        "longitudeE7": -793380623,
+        "placeId": "ChIJBZQMSAvL1IkRzIg1sr7cJxg",
+        "address": "801 Lake Shore Blvd E\nToronto, ON M4M 1A9\nCanada",
+        "name": "Mayfair Clubs",
+        "locationConfidence": 0.040402584
+      }, {
+        "latitudeE7": 436541337,
+        "longitudeE7": -793369674,
+        "placeId": "ChIJlzsxvArL1IkRnG8Hd_WXy34",
+        "address": "84 Signet Dr\nNorth York, ON M9L 1T2\nCanada",
+        "name": "Parliament Building Supplies",
+        "locationConfidence": 0.031016322
+      }, {
+        "latitudeE7": 436535322,
+        "longitudeE7": -793353330,
+        "placeId": "ChIJu1WDpwrL1IkRdgs1ObWj1Fo",
+        "address": "500 Commissioners St\nToronto, ON M4M 1N7\nCanada",
+        "name": "Toronto Hydro",
+        "locationConfidence": 0.01487424
+      }, {
+        "latitudeE7": 436535441,
+        "longitudeE7": -793401875,
+        "placeId": "ChIJnUhLZQvL1IkRbe8Od08q2-s",
+        "address": "755 Lake Shore Blvd E\nToronto, ON M4M 2M8\nCanada",
+        "name": "McCleary Park",
+        "locationConfidence": 0.009433715
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 58,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436538801,
+        "longitudeE7": -793365161
+      },
+      "endLocation": {
+        "latitudeE7": 436618935,
+        "longitudeE7": -793357888
+      },
+      "duration": {
+        "startTimestamp": "2017-11-02T01:50:09.068Z",
+        "endTimestamp": "2017-11-02T01:59:49.016Z"
+      },
+      "distance": 961,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 97.99059838222581
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.5533612215434212
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.2226619762632559
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436538810,
+          "lngE7": -793365249
+        }, {
+          "latE7": 436619911,
+          "lngE7": -793358917
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 436618935,
+          "longitudeE7": -793357888
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-11-02T01:59:49.016Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436618935,
+        "longitudeE7": -793357888,
+        "placeId": "ChIJXRzv0HfL1IkRAEZHLVCTz4o",
+        "address": "1101 Queen St E, Toronto, ON M4M 1K7, Canada",
+        "name": "Contemporary Computers",
+        "sourceInfo": {
+          "deviceTag": 1560881842
+        },
+        "locationConfidence": 90.08469
+      },
+      "duration": {
+        "startTimestamp": "2017-11-02T01:59:49.016Z",
+        "endTimestamp": "2017-11-02T03:03:32.561Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 436619791,
+      "centerLngE7": -793357982,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436618342,
+        "longitudeE7": -793356383,
+        "placeId": "ChIJE9vU1nfL1IkRrvgFqrJ1-9Y",
+        "address": "1103 Queen St E\nToronto, ON M4M 1K7\nCanada",
+        "name": "Remarkable Bean",
+        "locationConfidence": 2.4216714
+      }, {
+        "latitudeE7": 436618690,
+        "longitudeE7": -793359050,
+        "placeId": "ChIJKXoC73fL1IkRUH9XtXCBze8",
+        "address": "1097 Queen St E\nToronto, ON M4M 1K7\nCanada",
+        "name": "Brooklyn Tavern",
+        "locationConfidence": 2.0215359
+      }, {
+        "latitudeE7": 436618900,
+        "longitudeE7": -793356300,
+        "placeId": "ChIJsS9P13fL1IkRNAse1wCXo-w",
+        "address": "1105 Queen St E\nToronto, ON M4M 1K7\nCanada",
+        "name": "Sushi Mugen",
+        "locationConfidence": 1.8392841
+      }, {
+        "latitudeE7": 436618935,
+        "longitudeE7": -793357888,
+        "placeId": "ChIJ7W760HfL1IkRb7SJuikWxoY",
+        "locationConfidence": 0.39574984
+      }, {
+        "latitudeE7": 436620680,
+        "longitudeE7": -793358020,
+        "placeId": "ChIJj2lh2nfL1IkRmDz1WjFmMZs",
+        "address": "Toronto, ON M4M 2X4\nCanada",
+        "name": "Queen St East at Brooklyn Ave",
+        "locationConfidence": 0.37708646
+      }, {
+        "latitudeE7": 436621871,
+        "longitudeE7": -793354782,
+        "placeId": "ChIJvxNh2HfL1IkRWzt7F1URVQQ",
+        "address": "1114 Queen St E\nToronto, ON M4M 1K7\nCanada",
+        "name": "Arts Market",
+        "locationConfidence": 0.3060469
+      }, {
+        "latitudeE7": 436619779,
+        "longitudeE7": -793354242,
+        "placeId": "ChIJhwMj2HfL1IkRfCxOUWeI1ys",
+        "address": "1111 Queen St E\nToronto, ON M4M 1K7\nCanada",
+        "name": "Ascari Enoteca",
+        "locationConfidence": 0.18803087
+      }, {
+        "latitudeE7": 436620270,
+        "longitudeE7": -793354440,
+        "placeId": "ChIJ1-Ez2HfL1IkRx8hkCGSJqso",
+        "address": "Toronto, ON M4M 1K7\nCanada",
+        "name": "Queen St East at Caroline Ave",
+        "locationConfidence": 0.17163445
+      }, {
+        "latitudeE7": 436623424,
+        "longitudeE7": -793351969,
+        "placeId": "ChIJHcImYp3L1IkRq7K4TrNThgQ",
+        "address": "1124 Queen St E\nToronto, ON M4M 1K8\nCanada",
+        "name": "Goods and Provisions",
+        "locationConfidence": 0.11498641
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 78,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}
