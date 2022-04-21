@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dictionary Lookup Tool</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1><b>Dictionary Lookup Tool</b></h1>
+    <input type="text" id="query_word" placeholder="Enter word to lookup" />
+    <input
+      type="button"
+      onclick="lookup($('#query_word').val())"
+      value="Lookup"
+    />
+    <br />
+    <br />
+    <div id="text_result"></div>
+    <br />
+    <div id="image_result"></div>
+    <a href="/logout">Logout</a>
+  </body>
+  <script>
+    async function lookup(queryWord) {
+      //send query word to Express's router via POST
+      const response = await fetch("/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ query: queryWord }),
+      });
+      //receive response from Express from the sent POST of the query word, Express's response to this is the word definition
+      const wordDefinition = await response.text();
+      //load the word definition into the appropriate html tag for the user to see
+      $("#text_result").fadeOut(500, function () {
+        $(this)
+          .html("<b>Definition: </b>" + wordDefinition)
+          .fadeIn(500);
+      });
+      //load the appropriate image for the query word into the html for the user to see, if no corresponding image exists for said query word, then load the No Image Found image.
+      $("#image_result").fadeOut(500, function () {
+        $(this)
+          .html(
+            `<b>Illustration: </b><br /><img id='image' src='https://www.merriam-webster.com/assets/mw/static/art/dict/${queryWord}.gif' onerror="javascript: $('#image').attr('src','https://i.imgur.com/D1nM11A.png')" />`
+          )
+          .fadeIn(500);
+      });
+    }
+  </script>
+</html>
