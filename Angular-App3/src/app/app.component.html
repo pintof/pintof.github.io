@@ -1,0 +1,17 @@
+<!-- Interpolation - send data from component.ts to template.html (but can only do string type data unlike property binding) -->
+<h1>{{ pageTitle }}</h1>
+<!-- Interpolation with ternary operator -->
+<img src="{{ boolean ? imageLocation : imageLocation2 }}" />
+<br />
+<!-- Event binding - send data from template.html to component.ts (triggered by an event, flows in reverse order of property binding) -->
+<button class="btn btn-primary" (click)="changeImage()">Change Image</button>
+<br />
+<!-- Property binding - send data from component.ts to template.html -->
+<input type="text" [value]="textEntry" />
+<br />
+<!-- Two-way binding - property binding + event binding combined, sends data both ways between template.html & component.ts -->
+<input type="text" [(ngModel)]="textEntry" />
+<br />
+<textarea rows="4" cols="50">{{ results }}</textarea>
+<br />
+<third></third>

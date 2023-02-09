@@ -1,3 +1,7 @@
+#Get path that the currently executing .py file is located in
+os.path.realpath(os.path.dirname(__file__))
+
+
 #Check if an element exists within a 2D array
 from itertools import chain
 from pydoc import doc
@@ -69,6 +73,22 @@ with open(newFileLocation, 'r+') as parsedDepthFile: #Open Parsed Depth CSV file
    for i in range(len(contentsDepth)): #Loop through each line of CSV
       contentsDepth[i] = contentsDepth[i].rstrip('\n') #remove \n from the end of every line (messes up formatting of the .split() function)
       contentsDepth[i] = contentsDepth[i].split(',') #split each line into a list, using ',' as the delimiter
+
+
+
+#Print a 2D array to a CSV file
+path = os.path.realpath(os.path.dirname(__file__)) #Get path that the currently executing .py file is located in
+sys.stdout = open(path + r'/output.csv', 'w+') #redirect Standard Output datastream to a file 
+#Print the array (with inserted commas) to a CSV file
+for row in contentsDepth:
+    for count, iterator in enumerate(row):
+        if count != len(row)-1:
+            print(iterator,end=',')
+        else:
+            print(iterator)
+
+sys.stdout.close() #close the file
+sys.stdout = sys.__stdout__ #redirect Standard Output stream back to default (from file, back to console)
 
 
 

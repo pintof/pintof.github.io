@@ -1,0 +1,18 @@
+{
+  "name": "servassure_sql_viewer",
+  "version": "1.0.0",
+  "description": "load & view SQL queries from ServAssure MySQL database, node version 14.17.0, npm version 6.14.13",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Floyd Pinto",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "json2csv": "^5.0.7",
+    "mysql": "^2.18.1",
+    "open": "^8.4.0"
+  }
+}
